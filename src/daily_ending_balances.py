@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+from __future__ import with_statement
 import sys
 import json
 from pprint import pprint
@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 import urllib2
 import csv
 import random
+import collections
+
 
 fname = sys.argv[1]
 flocation = 'docs/json/'
@@ -25,8 +27,28 @@ def main():
  Dynamic means you have it on the internet. Where you access via URL'''
     choose = input('Static [1] or Dynamic [2]: ')
     if choose == 1:
-        # determine_buy_or_sell()
         determine_buy_or_sell()
+
+def set_up():
+    daily_data = {
+        'next_day_buy': [],
+        'next_day_sell': [],
+        'last_four_numbers': [],
+        'labels': {'nextDayBUY': 'BUY','nextDaySELL': 'SELL'},
+        'data_converted': [],
+        'data_keys_converted': []
+    }
+
+    return daily_data
+def convert(d):
+    if isinstance(d, basestring):
+        return str(d)
+    elif isinstance(d, collections.Mapping):
+        return dict(map(convert, d.iteritems()))
+    elif isinstance(d, collections.Iterable):
+        return type(d)(map(convert, d))
+    else:
+        return d
 
 
 def dynamic_converter():
@@ -51,58 +73,36 @@ def dynamic_converter():
                       table.select('tr + tr')])
 
 
-# TODO the buy and sell methods can be one with a little more logic. It's 12 am I am just  tired.
-# TODO I haven't slept in so long.
-
 def determine_buy_or_sell():
-    data_keys = data.keys()
+    daily_data = set_up()
 
-    # TODO make sure these are not global variables.
-    next_day_sell = []
-    next_day_buy = []
-    last_four_numbers = []
+    daily_data['data_converted'] = convert(data)
+    daily_data['data_keys_converted'] = convert(data.keys())
 
-    labels = {'nextDayBUY': 'BUY', 'nextDaySELL': 'SELL'}
-
-    # json_parse = {
-    #     'next_day_sell': [],
-    #     'next_day_buy': [],
-    #     'last_four_numbers': [],
-    #     'labels': {
-    #         'nextDayBUY': 'BUY', 'nextDaySELL': 'SELL'
-    #     },
-    # }
-
-    sell_result = [keys for keys in data_keys if labels['nextDaySELL']
+    sell_result = [keys for keys in daily_data['data_keys_converted'] if daily_data['labels']['nextDaySELL']
                    in keys]
-    buy_result = [keys for keys in data_keys if labels['nextDayBUY']
+    buy_result = [keys for keys in daily_data['data_keys_converted'] if daily_data['labels']['nextDayBUY']
                   in keys]
 
     for i in sell_result:
-        next_day_sell.append(i)
+        daily_data['next_day_sell'].append(i)
     for i in buy_result:
-        next_day_buy.append(i)
+        daily_data['next_day_buy'].append(i)
 
-    last_four_numbers_edit = [x[-4:] for x in next_day_sell]
+    last_four_numbers_edit_sell = [x[-4:] for x in daily_data['next_day_sell']]
 
-    for i in last_four_numbers_edit:
-        last_four_numbers.append(i)
+    for i in last_four_numbers_edit_sell:
+        daily_data['last_four_numbers'].append(i)
 
-    pprint(next_day_sell)
-    pprint(next_day_buy)
+    return daily_data
 
-    standard_amount = 50000
-    first_eb = standard_amount+()
-    # pprint(data[next_day_sell[0]])
-    return next_day_sell, next_day_buy
 def ending_balance():
     pass
 
 
 def inital_ending_balance():
-    standard = 50000
+    pass
 
 
 if __name__ == '__main__':
     main()
-
