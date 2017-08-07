@@ -9,7 +9,6 @@ import urllib2
 import csv
 import random
 import collections
-from collections import defaultdict
 
 
 fname = sys.argv[1]
@@ -19,12 +18,33 @@ with open(complete) as data_file:
     data = json.load(data_file)
 
 
+
 def main():
-    determine_buy_or_sell()
-    # example()
-    # something_print()
+    play()
+ #    print 'MAKE SURE YOU READ THE README.MD'
+ #    print 'Please be sure you are running the .py file from the same directory where you are working.'
+ #    print '*************************************'
+ #    print '''This will convert your HTML table to CSV.
+ # Static means you have the file saved to the computer.
+ # Dynamic means you have it on the Internet. Where you access via URL'''
+ #    choose = input('Static [1] or Dynamic [2]: ')
+ #    if choose == 1:
+ #        pass
+ #        buy_or_sell()
+ #        inital_ending_balance()
 
+def set_up():
+    daily_data = {
+        'next_day_buy': [],
+        'next_day_sell': [],
+        'num_id_sell': [],
+        'num_id_buy': [],
+        'labels': {'nextDayBUY': 'BUY','nextDaySELL': 'SELL'},
+        'data': [],
+        'keys': []
+    }
 
+    return daily_data
 def convert(d):
     if isinstance(d, basestring):
         return str(d)
@@ -34,6 +54,7 @@ def convert(d):
         return type(d)(map(convert, d))
     else:
         return d
+
 
 def dynamic_converter():
     csv_file = \
@@ -57,95 +78,71 @@ def dynamic_converter():
                       table.select('tr + tr')])
 
 
+def uni_str():
+    daily_data = set_up()
 
+    daily_data['data'] = convert(data)
+    daily_data['keys'] = convert(data.keys())
+    print(daily_data['data'])
+    return daily_data
 
-def determine_buy_or_sell():
-    data_converted = convert(data)
-    data_keys_converted = convert(data.keys())
-
-
-    some_dict = {
-        'next_day_buy': [],
-        'next_day_sell': [],
-        'last_four_numbers': [],
-        'labels': {
-                    'nextDayBUY': 'BUY',
-                    'nextDaySELL': 'SELL'
-                    }
-    }
-    next_day_sell = []
-    next_day_buy = []
-    last_four_numbers = []
-
-    labels = {'nextDayBUY': 'BUY', 'nextDaySELL': 'SELL'}
-
-    # sell_result = [keys for keys in data_keys_converted if labels['nextDaySELL']
-    sell_result = [keys for keys in data_keys_converted if some_dict['labels']['nextDaySELL']
+def buy_or_sell():
+    daily_data = uni_str()
+    sell_result = [keys for keys in daily_data['keys'] if daily_data['labels']['nextDaySELL']
                    in keys]
-    # buy_result = [keys for keys in data_keys_converted if labels['nextDayBUY']
-    buy_result = [keys for keys in data_keys_converted if some_dict['labels']['nextDayBUY']
+    buy_result = [keys for keys in daily_data['keys'] if daily_data['labels']['nextDayBUY']
                   in keys]
 
     for i in sell_result:
-        # next_day_sell.append(i)
-        some_dict['next_day_sell'].append(i)
+        daily_data['next_day_sell'].append(i)
     for i in buy_result:
-        # next_day_buy.append(i)
-        some_dict['next_day_buy'].append(i)
-
-    last_four_numbers_edit_sell = [x[-4:] for x in some_dict['next_day_sell']]
-
-    for i in last_four_numbers_edit_sell:
-        # last_four_numbers.append(i)
-        some_dict['last_four_numbers'].append(i)
+        daily_data['next_day_buy'].append(i)
 
 
-    # last_four_numbers_edit_sell = (map(str, last_four_numbers_edit_sell))
-    # next_day_buy = (map(str, next_day_buy))
-    # next_day_sell = (map(str, next_day_sell))
+    return daily_data
 
-    # for i in next_day_buy:
-    #     print i
-    #     pprint(data_converted[i])
-    # for i in next_day_sell:
-    #     print i
-    #     pprint(data_converted[i])
 
-    # pprint(some_dict)
+def get_num_id():
+    daily_data = buy_or_sell()
 
-    pprint(data_keys_converted.__class__)
+    num_id_edit_sell = [x[-4:] for x in daily_data['next_day_sell']]
+    num_id_edit_sell = [x[-4:] for x in daily_data['next_day_buy']]
 
-    return some_dict
+    for i in num_id_edit_sell:
+        sorted(daily_data['num_id_sell']).append(i)
+    for i in num_id_edit_sell:
+        sorted(daily_data['num_id_buy']).append(i)
+    return daily_data
 
-def last_four_numbers(buy_list = [], sell_list = [], *args):
-    # last_four_numbers_edit_sell = [x[-4:] for x in next_day_sell]
-    # last_four_numbers_edit_buy = [x[-4:] for x in next_day_buy]
-    last_four_numbers_edit_sell = [x[-4:] for x in buy_list]
-    last_four_numbers_edit_buy = [x[-4:] for x in sell_list]
-    return last_four_numbers_edit_sell
 
-def example():
-    daily_ending_balances = []
+def ending_balance():
+    pass
 
-    data_converted = convert(data)
-    data_keys_converted = convert(data.keys())
+def play():
+    daily_data = get_num_id()
 
-    data_store = (data_converted['nextDay_BUY_2552'])
-    profit_loss =  some_var['Profit/Loss']
+    # pprint(len(daily_data['data']))
 
-    std = 50000
-    d_eb = standard + profit_loss
-    daily_ending_balances.append(d_eb)
+    something = daily_data['keys'][0]
+    # pprint(something)
+    # pprint(daily_data['data'][something])
 
-    print daily_ending_balances
-    # for i in data_converted:
-    #     print data_converted[i]
-    # pprint(data_keys_converted)
+    print daily_data['num_id_buy']
 
-def something_print():
-    pprint(determine_buy_or_sell())
+def inital_ending_balance():
+    daily_data = get_num_id()
+    inital_amount = 50000
+    j = daily_data['keys'][0]
+    profit_loss = daily_data['data'][j]['Profit/Loss']
+    f_eb = inital_amount + profit_loss
+    print j
+    print profit_loss
+    print f_eb
+    print daily_data['keys']
+
+
+    return daily_data
 
 
 if __name__ == '__main__':
     main()
-

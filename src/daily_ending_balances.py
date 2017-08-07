@@ -24,22 +24,27 @@ def main():
     print '*************************************'
     print '''This will convert your HTML table to CSV.
  Static means you have the file saved to the computer.
- Dynamic means you have it on the internet. Where you access via URL'''
+ Dynamic means you have it on the Internet. Where you access via URL'''
     choose = input('Static [1] or Dynamic [2]: ')
     if choose == 1:
-        determine_buy_or_sell()
+        pass
+        # buy_or_sell()
+        inital_ending_balance()
+
 
 def set_up():
     daily_data = {
         'next_day_buy': [],
         'next_day_sell': [],
-        'last_four_numbers': [],
+        'num_id_sell': [],
+        'num_id_buy': [],
         'labels': {'nextDayBUY': 'BUY','nextDaySELL': 'SELL'},
-        'data_converted': [],
-        'data_keys_converted': []
+        'data': [],
+        'keys': []
     }
-
     return daily_data
+
+
 def convert(d):
     if isinstance(d, basestring):
         return str(d)
@@ -73,15 +78,20 @@ def dynamic_converter():
                       table.select('tr + tr')])
 
 
-def determine_buy_or_sell():
+def uni_str():
     daily_data = set_up()
 
-    daily_data['data_converted'] = convert(data)
-    daily_data['data_keys_converted'] = convert(data.keys())
+    daily_data['data'] = convert(data)
+    daily_data['keys'] = convert(data.keys())
 
-    sell_result = [keys for keys in daily_data['data_keys_converted'] if daily_data['labels']['nextDaySELL']
+    return daily_data
+
+
+def buy_or_sell():
+    daily_data = uni_str()
+    sell_result = [keys for keys in daily_data['keys'] if daily_data['labels']['nextDaySELL']
                    in keys]
-    buy_result = [keys for keys in daily_data['data_keys_converted'] if daily_data['labels']['nextDayBUY']
+    buy_result = [keys for keys in daily_data['keys'] if daily_data['labels']['nextDayBUY']
                   in keys]
 
     for i in sell_result:
@@ -89,19 +99,53 @@ def determine_buy_or_sell():
     for i in buy_result:
         daily_data['next_day_buy'].append(i)
 
-    last_four_numbers_edit_sell = [x[-4:] for x in daily_data['next_day_sell']]
-
-    for i in last_four_numbers_edit_sell:
-        daily_data['last_four_numbers'].append(i)
 
     return daily_data
+
+
+def get_num_id():
+    daily_data = buy_or_sell()
+
+    num_id_edit_sell = [x[-4:] for x in daily_data['next_day_sell']]
+    num_id_edit_buy = [x[-4:] for x in daily_data['next_day_buy']]
+    for i in num_id_edit_sell:
+        daily_data['num_id_sell'].append(i)
+    for i in num_id_edit_buy:
+        daily_data['num_id_buy'].append(i)
+
+    daily_data['num_id_buy'] = sorted(daily_data['num_id_buy'])
+    daily_data['num_id_sell'] = sorted(daily_data['num_id_sell'])
+    return daily_data
+
 
 def ending_balance():
     pass
 
 
+def play():
+    daily_data = get_num_id()
+
+    # pprint(len(daily_data['data']))
+
+    something = daily_data['keys'][0]
+    # pprint(something)
+    # pprint(daily_data['data'][something])
+    print daily_data['num_id_buy']
+
+
 def inital_ending_balance():
-    pass
+    daily_data = get_num_id()
+    inital_amount = 50000
+    a = daily_data['num_id_buy']
+    j = daily_data['keys'][a]
+    profit_loss = daily_data['data'][j]['Profit/Loss']
+    f_eb = inital_amount + profit_loss
+    print j
+    print profit_loss
+    print f_eb
+
+
+    return daily_data
 
 
 if __name__ == '__main__':
