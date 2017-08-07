@@ -1,3 +1,8 @@
+'''
+This file is for testing purposes for the main script. Should be done in interpreter
+but is easier for the platform of development.
+'''
+
 import json
 from pprint import pprint
 from  __builtin__ import any as b_any
