@@ -27,11 +27,29 @@ When converting, you **MUST** choose 'To Keyed JSON'. It will generate the hashe
 
 You can choose the table you want, by slecting **Which Table**, typically it's the 5th table. But it could change.
 
-Download the .json file and save it to the *src/docs/json/* directory.
+Download the .json file and save it to the 
+```terminal
+src/docs/json/
+```
+
+It would be beneficial to use the standard, they development uses of 'data_set_NUMBER.json' where the data set number is
+
+just the next iteration of the file that is added.
 
 ###Running the script
-Go to the top of the daily_ending_balances.py file in the *src/* directory and change the name of the file present, 
-with your newly downloaded .json file.
+In a terminal type in
+```terminal
+python ./daily_ending_balances.py YOUR_DATA_SET_NAME.json
+``` 
 
+
+**EXAMPLE** 
+```terminal
+python daily_ending_balances.py data_set_one.py
+```
 ## Results
-Your results will be in *src/docs/csv/* directory, labeled converted_csv_#.csv. Where '#' will be some randomly generated number.
+Your results will be in 
+```terminal
+src/docs/csv/
+```
+directory, labeled converted_csv_#.csv. Where '#' will be some randomly generated number.

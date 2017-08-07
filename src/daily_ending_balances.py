@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 import json
 from pprint import pprint
@@ -6,7 +7,10 @@ import urllib2
 import csv
 import random
 
-with open('docs/json/html_json_converted.json') as data_file:
+fname = sys.argv[1]
+flocation = 'docs/json/'
+complete = flocation + fname
+with open(complete) as data_file:
     data = json.load(data_file)
 
 def main():
