@@ -1,0 +1,5273 @@
+<HTML><HEAD><style>
+.header{
+background-image:url(http://www.dukascopy.com/swiss/inc/images/headline_bg_menu.gif);
+background-repeat:repeat-x;
+clear:both;
+color:#FFFFFF;
+font-size:12pt;
+font-weight:bold;
+height:13pt;
+margin-bottom:10px;
+padding-left:30px;
+padding-bottom:3px;
+text-align:left;}
+body{
+margin:0px;
+font-size:11pt;
+}
+table.simple{
+border-collapse:collapse;
+width:890px;
+font-size:0.95em;
+}
+table.simple caption {
+color:#000000;
+font-size:0.95em;
+padding-bottom:5px;
+text-align:left;
+}
+table.simple th {
+background:#E8F1F0 none repeat scroll 0% 0% !important;
+border:1px solid #D6D6D6 !important;
+padding:2px 3px;
+}
+table.simple td {
+border:1px solid #D6D6D6;
+padding:3px;
+text-align:center;
+}
+table.simple.left td {
+border:1px solid #999999;
+padding:3px;
+text-align:left;
+}
+table.simple tr.odd td {
+background-color:#EEEEEE;
+}
+table.simple tr td.highlight {
+background:#FACDCE none repeat scroll 0% 0%;
+}
+table.simple.numbers td {
+white-space:nowrap;
+}
+#content{
+padding-left:50px;
+}
+h3 {
+border-bottom:1px solid #CCCCCC;width:890px;
+color:#000000;
+font-size:0.9em;
+padding-bottom:1px;
+margin-bottom:0px;}
+h2 {
+border-bottom:1px solid #CCCCCC;width:890px;
+color:#000000;
+font-size:1.1em;
+padding-bottom:1px;
+margin-bottom:0px;}
+h1 {
+border-bottom:1px solid #CCCCCC;
+color:#000000;font-size:1.45em;
+margin:0pt;
+margin-bottom:10px;
+padding-bottom:1px;
+padding-left:20px;
+width:900px;}
+</style>
+</HEAD>
+<BODY>
+<div style="background:url('http://www.dukascopy.com/pics/topBackground.png') repeat-x;"><img src="http://www.dukascopy.com/swiss/inc/images/logo_bh40.gif" style="display:block;border:none;"></div>
+<div class="header">&nbsp;</div>
+<div id="content"><h1>May30ReverseSept2 strategy report for EUR/USD instrument(s) from 2008-01-01 00:00:00 to 2008-04-01 00:00:00</h1><table class="simple" width="400px"><tr><th>Account Currency</th><td>USD</td></tr><tr><th>Initial deposit</th><td>50000</td></tr><tr><th>Finish deposit</th><td>70257.22</td></tr>
+<tr><th>Turnover</th><td>119989398.55</td></tr>
+<tr><th>Comission</th><td>2486.65
+</table><h2>Parameters</h2><BR><table class="simple" width="400px"><tr><th>sellSwitch</th><td>1</td></tr><tr><th>buySwitch</th><td>0</td></tr><tr><th>configStopLossPips</th><td>0.08</td></tr><tr><th>configTakeProfitPips</th><td>0.9999</td></tr><tr><th>negPipOrderNumber</th><td>9</td></tr><tr><th>negPipOrderMaxNumOfTimes</th><td>2</td></tr><tr><th>MA_1</th><td>21</td></tr><tr><th>MA_2</th><td>32</td></tr><tr><th>MA_3</th><td>32</td></tr><tr><th>configTakeProfitPipsDup</th><td>0.0105</td></tr><tr><th>configTakeProfitPips01</th><td>0.0029</td></tr><tr><th>configStopLossPips01</th><td>0.0043</td></tr><tr><th>timeToWaitBetweenOrders</th><td>120</td></tr><tr><th>stopTradingMidpointCandles</th><td>36</td></tr><tr><th>stopTradingMidpointHour</th><td>11</td></tr><tr><th>stopTradingMidpointMinuets</th><td>36</td></tr><tr><th>stopLossForWaitr</th><td>33.0</td></tr><tr><th>waitTimeForStoplossminuets</th><td>180</td></tr><tr><th>BuyAtFailedLossSettingAmt</th><td>0.07</td></tr><tr><th>amountAboveEquityForTradeingToContinueAt9</th><td>2000.0</td></tr><tr><th>howLongToContinueAfter9</th><td>3</td></tr><tr><th>amountIncreaseOfEquityToStopTradeingAtForQuarter</th><td>9999000.0</td></tr><tr><th>tradeAmountForWhenSwitched</th><td>0.001</td></tr><tr><th>OnOfHalfMouthAdjustments</th><td>1</td></tr><tr><th>volitivityBelowWhichToExtend</th><td>0.005</td></tr>
+</table><BR><h2>Instrument EUR/USD</h2><BR><table class="simple" width="400px">
+<tr><th>First tick time</th><td>2008-01-01 00:00:00</td></tr>
+<tr><th>First tick bid value</th><td>1.45844</td></tr>
+<tr><th>First tick ask value</th><td>1.45864</td></tr>
+<tr><th>Last tick time</th><td>2008-03-31 23:59:54</td></tr>
+<tr><th>Last tick bid value</th><td>1.57566</td></tr>
+<tr><th>Last tick ask value</th><td>1.57586</td></tr>
+<tr><th>Positions total</th><td>208</td></tr>
+<tr><th>Closed positions</th><td>208</td></tr>
+<tr><th>Orders total</th><td>208</td></tr>
+<tr><th>Bought</th><td>39.62</td></tr>
+<tr><th>Sold</th><td>39.62</td></tr>
+<tr><th>Turnover</th><td>119989398.55</td></tr>
+<tr><th>Comission</th><td>2486.65</td></tr>
+</table><BR><h3>Opened orders:</h3><br>
+<TABLE class="simple">
+<TR>
+	<th>Label</th>
+	<th>Amount</th><th>Direction</th>
+	<th>Open price</th>
+	<th>Profit/Loss at the end</th>
+	<th>Profit/Loss at the end in pips</th>
+	<th>Open date</th>
+	<th>Comment</th>
+</TR></TABLE><BR><h3>Closed orders:</h3><BR><TABLE class="simple">
+<TR>
+	<th>Label</th>
+	<th>Amount</th>
+	<th>Direction</th>
+	<th>Open price</th>
+	<th>Close price</th>
+	<th>Profit/Loss</th>
+	<th>Profit/Loss in pips</th>
+	<th>Open date</th>
+	<th>Close date</th>
+	<th>Comment</th>
+</TR><TR>
+	<TD>nextDay_BUY_2552</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.47145</TD>
+	<TD>1.47221</TD>
+	<TD>15.20</TD>
+	<TD>7.6</TD>
+	<TD>2008-01-03 04:31:01</TD>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2553</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47145</TD>
+	<TD>1.47221</TD>
+	<TD>0.76</TD>
+	<TD>7.6</TD>
+	<TD>2008-01-03 04:31:01</TD>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2554</TD>
+	<TD>0.100</TD>
+	<TD>BUY</TD>
+	<TD>1.47041</TD>
+	<TD>1.47221</TD>
+	<TD>180.00</TD>
+	<TD>18.0</TD>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2555</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47041</TD>
+	<TD>1.47221</TD>
+	<TD>1.80</TD>
+	<TD>18.0</TD>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2556</TD>
+	<TD>0.200</TD>
+	<TD>BUY</TD>
+	<TD>1.47041</TD>
+	<TD>1.47221</TD>
+	<TD>360.00</TD>
+	<TD>18.0</TD>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2557</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47041</TD>
+	<TD>1.47221</TD>
+	<TD>1.80</TD>
+	<TD>18.0</TD>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2558</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.47411</TD>
+	<TD>1.4784</TD>
+	<TD>-171.60</TD>
+	<TD>-42.9</TD>
+	<TD>2008-01-04 04:31:02</TD>
+	<TD>2008-01-04 16:11:10</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2559</TD>
+	<TD>0.500</TD>
+	<TD>SELL</TD>
+	<TD>1.47133</TD>
+	<TD>1.4784</TD>
+	<TD>-3535.00</TD>
+	<TD>-70.7</TD>
+	<TD>2008-01-04 12:00:02</TD>
+	<TD>2008-01-04 16:11:10</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2560</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.47</TD>
+	<TD>1.4714</TD>
+	<TD>14.00</TD>
+	<TD>14.0</TD>
+	<TD>2008-01-08 04:31:09</TD>
+	<TD>2008-01-08 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2561</TD>
+	<TD>0.045</TD>
+	<TD>BUY</TD>
+	<TD>1.46916</TD>
+	<TD>1.4714</TD>
+	<TD>100.80</TD>
+	<TD>22.4</TD>
+	<TD>2008-01-08 06:42:34</TD>
+	<TD>2008-01-08 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2562</TD>
+	<TD>0.090</TD>
+	<TD>BUY</TD>
+	<TD>1.46916</TD>
+	<TD>1.4714</TD>
+	<TD>201.60</TD>
+	<TD>22.4</TD>
+	<TD>2008-01-08 06:42:34</TD>
+	<TD>2008-01-08 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2563</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.46583</TD>
+	<TD>1.47356</TD>
+	<TD>-309.20</TD>
+	<TD>-77.3</TD>
+	<TD>2008-01-10 04:31:10</TD>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2564</TD>
+	<TD>0.045</TD>
+	<TD>SELL</TD>
+	<TD>1.46659</TD>
+	<TD>1.47356</TD>
+	<TD>-313.65</TD>
+	<TD>-69.7</TD>
+	<TD>2008-01-10 08:05:37</TD>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2565</TD>
+	<TD>0.090</TD>
+	<TD>SELL</TD>
+	<TD>1.46659</TD>
+	<TD>1.47356</TD>
+	<TD>-627.30</TD>
+	<TD>-69.7</TD>
+	<TD>2008-01-10 08:05:37</TD>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2566</TD>
+	<TD>0.045</TD>
+	<TD>SELL</TD>
+	<TD>1.46843</TD>
+	<TD>1.47356</TD>
+	<TD>-230.85</TD>
+	<TD>-51.3</TD>
+	<TD>2008-01-10 10:05:45</TD>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2567</TD>
+	<TD>0.090</TD>
+	<TD>SELL</TD>
+	<TD>1.46843</TD>
+	<TD>1.47356</TD>
+	<TD>-461.70</TD>
+	<TD>-51.3</TD>
+	<TD>2008-01-10 10:05:45</TD>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2568</TD>
+	<TD>0.140</TD>
+	<TD>SELL</TD>
+	<TD>1.46635</TD>
+	<TD>1.47356</TD>
+	<TD>-1009.40</TD>
+	<TD>-72.1</TD>
+	<TD>2008-01-10 12:51:14</TD>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2569</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.48088</TD>
+	<TD>1.47894</TD>
+	<TD>-19.40</TD>
+	<TD>-19.4</TD>
+	<TD>2008-01-11 04:31:10</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2570</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48088</TD>
+	<TD>1.47894</TD>
+	<TD>-1.94</TD>
+	<TD>-19.4</TD>
+	<TD>2008-01-11 04:31:10</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2571</TD>
+	<TD>0.045</TD>
+	<TD>BUY</TD>
+	<TD>1.48002</TD>
+	<TD>1.47894</TD>
+	<TD>-48.60</TD>
+	<TD>-10.8</TD>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2572</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48002</TD>
+	<TD>1.47894</TD>
+	<TD>-1.08</TD>
+	<TD>-10.8</TD>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2573</TD>
+	<TD>0.090</TD>
+	<TD>BUY</TD>
+	<TD>1.48002</TD>
+	<TD>1.47894</TD>
+	<TD>-97.20</TD>
+	<TD>-10.8</TD>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2574</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48002</TD>
+	<TD>1.47894</TD>
+	<TD>-1.08</TD>
+	<TD>-10.8</TD>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2575</TD>
+	<TD>0.175</TD>
+	<TD>BUY</TD>
+	<TD>1.47922</TD>
+	<TD>1.47894</TD>
+	<TD>-49.00</TD>
+	<TD>-2.8</TD>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2576</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47922</TD>
+	<TD>1.47894</TD>
+	<TD>-0.28</TD>
+	<TD>-2.8</TD>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2577</TD>
+	<TD>0.350</TD>
+	<TD>BUY</TD>
+	<TD>1.47922</TD>
+	<TD>1.47894</TD>
+	<TD>-98.00</TD>
+	<TD>-2.8</TD>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2578</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47922</TD>
+	<TD>1.47894</TD>
+	<TD>-0.28</TD>
+	<TD>-2.8</TD>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2579</TD>
+	<TD>0.060</TD>
+	<TD>BUY</TD>
+	<TD>1.47787</TD>
+	<TD>1.47894</TD>
+	<TD>64.20</TD>
+	<TD>10.7</TD>
+	<TD>2008-01-11 10:02:33</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2580</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47787</TD>
+	<TD>1.47894</TD>
+	<TD>1.07</TD>
+	<TD>10.7</TD>
+	<TD>2008-01-11 10:02:33</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2581</TD>
+	<TD>0.030</TD>
+	<TD>BUY</TD>
+	<TD>1.4777</TD>
+	<TD>1.47894</TD>
+	<TD>37.20</TD>
+	<TD>12.4</TD>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2582</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.4777</TD>
+	<TD>1.47894</TD>
+	<TD>1.24</TD>
+	<TD>12.4</TD>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2583</TD>
+	<TD>0.060</TD>
+	<TD>BUY</TD>
+	<TD>1.4777</TD>
+	<TD>1.47894</TD>
+	<TD>74.40</TD>
+	<TD>12.4</TD>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2584</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.4777</TD>
+	<TD>1.47894</TD>
+	<TD>1.24</TD>
+	<TD>12.4</TD>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2585</TD>
+	<TD>0.060</TD>
+	<TD>BUY</TD>
+	<TD>1.47821</TD>
+	<TD>1.47894</TD>
+	<TD>43.80</TD>
+	<TD>7.3</TD>
+	<TD>2008-01-11 13:26:25</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2586</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47821</TD>
+	<TD>1.47894</TD>
+	<TD>0.73</TD>
+	<TD>7.3</TD>
+	<TD>2008-01-11 13:26:25</TD>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2587</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.48784</TD>
+	<TD>1.48783</TD>
+	<TD>-0.20</TD>
+	<TD>-0.1</TD>
+	<TD>2008-01-15 04:31:10</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2588</TD>
+	<TD>0.045</TD>
+	<TD>BUY</TD>
+	<TD>1.48689</TD>
+	<TD>1.48783</TD>
+	<TD>42.30</TD>
+	<TD>9.4</TD>
+	<TD>2008-01-15 06:31:21</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2589</TD>
+	<TD>0.090</TD>
+	<TD>BUY</TD>
+	<TD>1.48689</TD>
+	<TD>1.48783</TD>
+	<TD>84.60</TD>
+	<TD>9.4</TD>
+	<TD>2008-01-15 06:31:21</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2590</TD>
+	<TD>0.350</TD>
+	<TD>BUY</TD>
+	<TD>1.48548</TD>
+	<TD>1.48783</TD>
+	<TD>822.50</TD>
+	<TD>23.5</TD>
+	<TD>2008-01-15 08:31:21</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2591</TD>
+	<TD>0.700</TD>
+	<TD>BUY</TD>
+	<TD>1.48548</TD>
+	<TD>1.48783</TD>
+	<TD>1645.00</TD>
+	<TD>23.5</TD>
+	<TD>2008-01-15 08:31:21</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2592</TD>
+	<TD>0.060</TD>
+	<TD>BUY</TD>
+	<TD>1.48575</TD>
+	<TD>1.48783</TD>
+	<TD>124.80</TD>
+	<TD>20.8</TD>
+	<TD>2008-01-15 11:08:04</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2593</TD>
+	<TD>0.060</TD>
+	<TD>BUY</TD>
+	<TD>1.48611</TD>
+	<TD>1.48783</TD>
+	<TD>103.20</TD>
+	<TD>17.2</TD>
+	<TD>2008-01-15 12:11:03</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2594</TD>
+	<TD>0.060</TD>
+	<TD>BUY</TD>
+	<TD>1.48611</TD>
+	<TD>1.48783</TD>
+	<TD>103.20</TD>
+	<TD>17.2</TD>
+	<TD>2008-01-15 12:11:03</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2595</TD>
+	<TD>0.230</TD>
+	<TD>SELL</TD>
+	<TD>1.48783</TD>
+	<TD>1.4879</TD>
+	<TD>-16.10</TD>
+	<TD>-0.7</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>2008-01-15 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2596</TD>
+	<TD>0.230</TD>
+	<TD>SELL</TD>
+	<TD>1.48783</TD>
+	<TD>1.4879</TD>
+	<TD>-16.10</TD>
+	<TD>-0.7</TD>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>2008-01-15 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2597</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.46532</TD>
+	<TD>1.46883</TD>
+	<TD>-70.20</TD>
+	<TD>-35.1</TD>
+	<TD>2008-01-17 04:31:09</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2598</TD>
+	<TD>0.160</TD>
+	<TD>SELL</TD>
+	<TD>1.46629</TD>
+	<TD>1.46883</TD>
+	<TD>-406.40</TD>
+	<TD>-25.4</TD>
+	<TD>2008-01-17 06:33:16</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2599</TD>
+	<TD>0.320</TD>
+	<TD>SELL</TD>
+	<TD>1.46629</TD>
+	<TD>1.46883</TD>
+	<TD>-812.80</TD>
+	<TD>-25.4</TD>
+	<TD>2008-01-17 06:33:16</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2600</TD>
+	<TD>0.160</TD>
+	<TD>SELL</TD>
+	<TD>1.46715</TD>
+	<TD>1.46883</TD>
+	<TD>-268.80</TD>
+	<TD>-16.8</TD>
+	<TD>2008-01-17 11:21:16</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2601</TD>
+	<TD>0.160</TD>
+	<TD>SELL</TD>
+	<TD>1.46715</TD>
+	<TD>1.46883</TD>
+	<TD>-268.80</TD>
+	<TD>-16.8</TD>
+	<TD>2008-01-17 11:21:16</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2602</TD>
+	<TD>0.070</TD>
+	<TD>SELL</TD>
+	<TD>1.46729</TD>
+	<TD>1.46883</TD>
+	<TD>-107.80</TD>
+	<TD>-15.4</TD>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2603</TD>
+	<TD>0.140</TD>
+	<TD>SELL</TD>
+	<TD>1.46729</TD>
+	<TD>1.46883</TD>
+	<TD>-215.60</TD>
+	<TD>-15.4</TD>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2604</TD>
+	<TD>0.140</TD>
+	<TD>SELL</TD>
+	<TD>1.46729</TD>
+	<TD>1.46883</TD>
+	<TD>-215.60</TD>
+	<TD>-15.4</TD>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2605</TD>
+	<TD>0.030</TD>
+	<TD>SELL</TD>
+	<TD>1.46852</TD>
+	<TD>1.46883</TD>
+	<TD>-9.30</TD>
+	<TD>-3.1</TD>
+	<TD>2008-01-17 15:37:53</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2606</TD>
+	<TD>0.060</TD>
+	<TD>SELL</TD>
+	<TD>1.46852</TD>
+	<TD>1.46883</TD>
+	<TD>-18.60</TD>
+	<TD>-3.1</TD>
+	<TD>2008-01-17 15:37:53</TD>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2607</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.46542</TD>
+	<TD>1.46231</TD>
+	<TD>31.10</TD>
+	<TD>31.1</TD>
+	<TD>2008-01-18 04:31:10</TD>
+	<TD>2008-01-18 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2608</TD>
+	<TD>0.220</TD>
+	<TD>SELL</TD>
+	<TD>1.46485</TD>
+	<TD>1.46231</TD>
+	<TD>558.80</TD>
+	<TD>25.4</TD>
+	<TD>2008-01-18 12:00:03</TD>
+	<TD>2008-01-18 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2609</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.44303</TD>
+	<TD>1.43928</TD>
+	<TD>75.00</TD>
+	<TD>37.5</TD>
+	<TD>2008-01-22 04:31:02</TD>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2611</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.43928</TD>
+	<TD>1.45042</TD>
+	<TD>222.80</TD>
+	<TD>111.4</TD>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>2008-01-22 11:02:38</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2610</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.43928</TD>
+	<TD>1.45809</TD>
+	<TD>376.20</TD>
+	<TD>188.1</TD>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>2008-01-22 13:20:51</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2612</TD>
+	<TD>0.230</TD>
+	<TD>BUY</TD>
+	<TD>1.45073</TD>
+	<TD>1.45809</TD>
+	<TD>1692.80</TD>
+	<TD>73.6</TD>
+	<TD>2008-01-22 12:00:02</TD>
+	<TD>2008-01-22 13:20:51</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2613</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.46165</TD>
+	<TD>1.46358</TD>
+	<TD>19.30</TD>
+	<TD>19.3</TD>
+	<TD>2008-01-24 04:31:01</TD>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2614</TD>
+	<TD>0.500</TD>
+	<TD>SELL</TD>
+	<TD>1.46358</TD>
+	<TD>1.46642</TD>
+	<TD>-1420.00</TD>
+	<TD>-28.4</TD>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>2008-01-24 11:16:21</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2615</TD>
+	<TD>0.500</TD>
+	<TD>SELL</TD>
+	<TD>1.46358</TD>
+	<TD>1.46642</TD>
+	<TD>-1420.00</TD>
+	<TD>-28.4</TD>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>2008-01-24 11:16:21</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2616</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.47586</TD>
+	<TD>1.47018</TD>
+	<TD>-56.80</TD>
+	<TD>-56.8</TD>
+	<TD>2008-01-25 04:31:03</TD>
+	<TD>2008-01-25 12:03:35</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2617</TD>
+	<TD>0.220</TD>
+	<TD>BUY</TD>
+	<TD>1.47038</TD>
+	<TD>1.47036</TD>
+	<TD>-4.40</TD>
+	<TD>-0.2</TD>
+	<TD>2008-01-25 12:00:01</TD>
+	<TD>2008-01-25 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2618</TD>
+	<TD>0.220</TD>
+	<TD>BUY</TD>
+	<TD>1.47007</TD>
+	<TD>1.47036</TD>
+	<TD>63.80</TD>
+	<TD>2.9</TD>
+	<TD>2008-01-25 12:03:46</TD>
+	<TD>2008-01-25 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2619</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.47686</TD>
+	<TD>1.47627</TD>
+	<TD>-11.80</TD>
+	<TD>-5.9</TD>
+	<TD>2008-01-29 04:31:11</TD>
+	<TD>2008-01-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2620</TD>
+	<TD>0.150</TD>
+	<TD>BUY</TD>
+	<TD>1.47604</TD>
+	<TD>1.47627</TD>
+	<TD>34.50</TD>
+	<TD>2.3</TD>
+	<TD>2008-01-29 07:15:28</TD>
+	<TD>2008-01-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2621</TD>
+	<TD>0.300</TD>
+	<TD>BUY</TD>
+	<TD>1.47604</TD>
+	<TD>1.47627</TD>
+	<TD>69.00</TD>
+	<TD>2.3</TD>
+	<TD>2008-01-29 07:15:28</TD>
+	<TD>2008-01-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2622</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.48438</TD>
+	<TD>1.48698</TD>
+	<TD>52.00</TD>
+	<TD>26.0</TD>
+	<TD>2008-01-31 04:31:09</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2623</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48438</TD>
+	<TD>1.48698</TD>
+	<TD>2.60</TD>
+	<TD>26.0</TD>
+	<TD>2008-01-31 04:31:09</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2624</TD>
+	<TD>0.620</TD>
+	<TD>BUY</TD>
+	<TD>1.48357</TD>
+	<TD>1.48698</TD>
+	<TD>2114.20</TD>
+	<TD>34.1</TD>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2625</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48357</TD>
+	<TD>1.48698</TD>
+	<TD>3.41</TD>
+	<TD>34.1</TD>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2626</TD>
+	<TD>1.240</TD>
+	<TD>BUY</TD>
+	<TD>1.48357</TD>
+	<TD>1.48698</TD>
+	<TD>4228.40</TD>
+	<TD>34.1</TD>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2627</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48357</TD>
+	<TD>1.48698</TD>
+	<TD>3.41</TD>
+	<TD>34.1</TD>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2628</TD>
+	<TD>0.250</TD>
+	<TD>SELL</TD>
+	<TD>1.48698</TD>
+	<TD>1.48685</TD>
+	<TD>32.50</TD>
+	<TD>1.3</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2629</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.48698</TD>
+	<TD>1.48685</TD>
+	<TD>0.13</TD>
+	<TD>1.3</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2630</TD>
+	<TD>0.250</TD>
+	<TD>SELL</TD>
+	<TD>1.48698</TD>
+	<TD>1.48685</TD>
+	<TD>32.50</TD>
+	<TD>1.3</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2631</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.48698</TD>
+	<TD>1.48685</TD>
+	<TD>0.13</TD>
+	<TD>1.3</TD>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2632</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.48724</TD>
+	<TD>1.4889</TD>
+	<TD>16.60</TD>
+	<TD>16.6</TD>
+	<TD>2008-02-01 04:31:09</TD>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2633</TD>
+	<TD>0.530</TD>
+	<TD>SELL</TD>
+	<TD>1.4889</TD>
+	<TD>1.48424</TD>
+	<TD>2469.80</TD>
+	<TD>46.6</TD>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>2008-02-01 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2634</TD>
+	<TD>0.530</TD>
+	<TD>SELL</TD>
+	<TD>1.4889</TD>
+	<TD>1.48424</TD>
+	<TD>2469.80</TD>
+	<TD>46.6</TD>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>2008-02-01 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2635</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.48157</TD>
+	<TD>1.47987</TD>
+	<TD>34.00</TD>
+	<TD>17.0</TD>
+	<TD>2008-02-05 04:31:09</TD>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2636</TD>
+	<TD>0.660</TD>
+	<TD>BUY</TD>
+	<TD>1.47987</TD>
+	<TD>1.46804</TD>
+	<TD>-7807.80</TD>
+	<TD>-118.3</TD>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>2008-02-05 11:00:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2637</TD>
+	<TD>0.660</TD>
+	<TD>BUY</TD>
+	<TD>1.47987</TD>
+	<TD>1.46804</TD>
+	<TD>-7807.80</TD>
+	<TD>-118.3</TD>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>2008-02-05 11:00:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2638</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.46144</TD>
+	<TD>1.45647</TD>
+	<TD>99.40</TD>
+	<TD>49.7</TD>
+	<TD>2008-02-07 04:31:11</TD>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2639</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.46334</TD>
+	<TD>1.45647</TD>
+	<TD>274.80</TD>
+	<TD>68.7</TD>
+	<TD>2008-02-07 06:31:20</TD>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2640</TD>
+	<TD>0.080</TD>
+	<TD>SELL</TD>
+	<TD>1.46334</TD>
+	<TD>1.45647</TD>
+	<TD>549.60</TD>
+	<TD>68.7</TD>
+	<TD>2008-02-07 06:31:20</TD>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2641</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.46427</TD>
+	<TD>1.45647</TD>
+	<TD>312.00</TD>
+	<TD>78.0</TD>
+	<TD>2008-02-07 09:39:23</TD>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2642</TD>
+	<TD>0.080</TD>
+	<TD>SELL</TD>
+	<TD>1.46427</TD>
+	<TD>1.45647</TD>
+	<TD>624.00</TD>
+	<TD>78.0</TD>
+	<TD>2008-02-07 09:39:23</TD>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2643</TD>
+	<TD>0.120</TD>
+	<TD>SELL</TD>
+	<TD>1.45747</TD>
+	<TD>1.45647</TD>
+	<TD>120.00</TD>
+	<TD>10.0</TD>
+	<TD>2008-02-07 12:47:16</TD>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2644</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.44842</TD>
+	<TD>1.45064</TD>
+	<TD>-88.80</TD>
+	<TD>-22.2</TD>
+	<TD>2008-02-08 04:31:09</TD>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2645</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.44951</TD>
+	<TD>1.45064</TD>
+	<TD>-45.20</TD>
+	<TD>-11.3</TD>
+	<TD>2008-02-08 06:59:09</TD>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2646</TD>
+	<TD>0.080</TD>
+	<TD>SELL</TD>
+	<TD>1.44951</TD>
+	<TD>1.45064</TD>
+	<TD>-90.40</TD>
+	<TD>-11.3</TD>
+	<TD>2008-02-08 06:59:09</TD>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2647</TD>
+	<TD>0.120</TD>
+	<TD>SELL</TD>
+	<TD>1.44913</TD>
+	<TD>1.45064</TD>
+	<TD>-181.20</TD>
+	<TD>-15.1</TD>
+	<TD>2008-02-08 15:55:27</TD>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2649</TD>
+	<TD>0.120</TD>
+	<TD>SELL</TD>
+	<TD>1.45069</TD>
+	<TD>1.45864</TD>
+	<TD>-954.00</TD>
+	<TD>-79.5</TD>
+	<TD>2008-02-12 09:58:16</TD>
+	<TD>2008-02-12 15:36:34</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2648</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.45135</TD>
+	<TD>1.45873</TD>
+	<TD>-73.80</TD>
+	<TD>-73.8</TD>
+	<TD>2008-02-12 04:31:03</TD>
+	<TD>2008-02-12 15:39:17</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2650</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.458</TD>
+	<TD>1.45428</TD>
+	<TD>-37.20</TD>
+	<TD>-37.2</TD>
+	<TD>2008-02-13 04:31:02</TD>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2651</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.458</TD>
+	<TD>1.45428</TD>
+	<TD>-3.72</TD>
+	<TD>-37.2</TD>
+	<TD>2008-02-13 04:31:02</TD>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2652</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.45434</TD>
+	<TD>1.45685</TD>
+	<TD>25.10</TD>
+	<TD>25.1</TD>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2653</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.45434</TD>
+	<TD>1.45685</TD>
+	<TD>2.51</TD>
+	<TD>25.1</TD>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2654</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.45434</TD>
+	<TD>1.45685</TD>
+	<TD>50.20</TD>
+	<TD>25.1</TD>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2655</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.45434</TD>
+	<TD>1.45685</TD>
+	<TD>2.51</TD>
+	<TD>25.1</TD>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2656</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.45633</TD>
+	<TD>1.46157</TD>
+	<TD>-209.60</TD>
+	<TD>-52.4</TD>
+	<TD>2008-02-14 04:31:02</TD>
+	<TD>2008-02-14 10:57:09</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2657</TD>
+	<TD>0.040</TD>
+	<TD>SELL</TD>
+	<TD>1.45741</TD>
+	<TD>1.46159</TD>
+	<TD>-167.20</TD>
+	<TD>-41.8</TD>
+	<TD>2008-02-14 06:31:07</TD>
+	<TD>2008-02-14 10:57:49</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2658</TD>
+	<TD>0.080</TD>
+	<TD>SELL</TD>
+	<TD>1.45741</TD>
+	<TD>1.46159</TD>
+	<TD>-334.40</TD>
+	<TD>-41.8</TD>
+	<TD>2008-02-14 06:31:07</TD>
+	<TD>2008-02-14 10:57:49</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2659</TD>
+	<TD>0.160</TD>
+	<TD>SELL</TD>
+	<TD>1.46167</TD>
+	<TD>1.46342</TD>
+	<TD>-280.00</TD>
+	<TD>-17.5</TD>
+	<TD>2008-02-14 08:31:12</TD>
+	<TD>2008-02-14 16:11:00</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2660</TD>
+	<TD>0.320</TD>
+	<TD>SELL</TD>
+	<TD>1.46167</TD>
+	<TD>1.46342</TD>
+	<TD>-560.00</TD>
+	<TD>-17.5</TD>
+	<TD>2008-02-14 08:31:12</TD>
+	<TD>2008-02-14 16:11:00</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2661</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.46325</TD>
+	<TD>1.467</TD>
+	<TD>37.50</TD>
+	<TD>37.5</TD>
+	<TD>2008-02-15 04:31:01</TD>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2662</TD>
+	<TD>0.390</TD>
+	<TD>SELL</TD>
+	<TD>1.467</TD>
+	<TD>1.46909</TD>
+	<TD>-815.10</TD>
+	<TD>-20.9</TD>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>2008-02-15 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2663</TD>
+	<TD>0.390</TD>
+	<TD>SELL</TD>
+	<TD>1.467</TD>
+	<TD>1.46909</TD>
+	<TD>-815.10</TD>
+	<TD>-20.9</TD>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>2008-02-15 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2664</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.46625</TD>
+	<TD>1.474</TD>
+	<TD>77.50</TD>
+	<TD>77.5</TD>
+	<TD>2008-02-19 04:31:10</TD>
+	<TD>2008-02-19 16:11:10</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2665</TD>
+	<TD>0.190</TD>
+	<TD>BUY</TD>
+	<TD>1.47436</TD>
+	<TD>1.474</TD>
+	<TD>-68.40</TD>
+	<TD>-3.6</TD>
+	<TD>2008-02-19 12:00:03</TD>
+	<TD>2008-02-19 16:11:10</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2666</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.47285</TD>
+	<TD>1.47887</TD>
+	<TD>60.20</TD>
+	<TD>60.2</TD>
+	<TD>2008-02-21 04:31:08</TD>
+	<TD>2008-02-21 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2667</TD>
+	<TD>0.190</TD>
+	<TD>BUY</TD>
+	<TD>1.47079</TD>
+	<TD>1.47887</TD>
+	<TD>1535.20</TD>
+	<TD>80.8</TD>
+	<TD>2008-02-21 12:00:02</TD>
+	<TD>2008-02-21 16:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2668</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.48042</TD>
+	<TD>1.48488</TD>
+	<TD>89.20</TD>
+	<TD>44.6</TD>
+	<TD>2008-02-22 04:31:10</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2669</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.48042</TD>
+	<TD>1.48488</TD>
+	<TD>4.46</TD>
+	<TD>44.6</TD>
+	<TD>2008-02-22 04:31:10</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2670</TD>
+	<TD>0.140</TD>
+	<TD>BUY</TD>
+	<TD>1.47943</TD>
+	<TD>1.48488</TD>
+	<TD>763.00</TD>
+	<TD>54.5</TD>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2671</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47943</TD>
+	<TD>1.48488</TD>
+	<TD>5.45</TD>
+	<TD>54.5</TD>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2672</TD>
+	<TD>0.280</TD>
+	<TD>BUY</TD>
+	<TD>1.47943</TD>
+	<TD>1.48488</TD>
+	<TD>1526.00</TD>
+	<TD>54.5</TD>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2673</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.47943</TD>
+	<TD>1.48488</TD>
+	<TD>5.45</TD>
+	<TD>54.5</TD>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2674</TD>
+	<TD>0.210</TD>
+	<TD>SELL</TD>
+	<TD>1.48488</TD>
+	<TD>1.48536</TD>
+	<TD>-100.80</TD>
+	<TD>-4.8</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2675</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.48488</TD>
+	<TD>1.48536</TD>
+	<TD>-0.48</TD>
+	<TD>-4.8</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2676</TD>
+	<TD>0.210</TD>
+	<TD>SELL</TD>
+	<TD>1.48488</TD>
+	<TD>1.48536</TD>
+	<TD>-100.80</TD>
+	<TD>-4.8</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2677</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.48488</TD>
+	<TD>1.48536</TD>
+	<TD>-0.48</TD>
+	<TD>-4.8</TD>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2678</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.48274</TD>
+	<TD>1.48748</TD>
+	<TD>47.40</TD>
+	<TD>47.4</TD>
+	<TD>2008-02-26 04:31:10</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2679</TD>
+	<TD>0.140</TD>
+	<TD>BUY</TD>
+	<TD>1.48155</TD>
+	<TD>1.48748</TD>
+	<TD>830.20</TD>
+	<TD>59.3</TD>
+	<TD>2008-02-26 06:31:10</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2680</TD>
+	<TD>0.280</TD>
+	<TD>BUY</TD>
+	<TD>1.48155</TD>
+	<TD>1.48748</TD>
+	<TD>1660.40</TD>
+	<TD>59.3</TD>
+	<TD>2008-02-26 06:31:10</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2681</TD>
+	<TD>0.550</TD>
+	<TD>BUY</TD>
+	<TD>1.4787</TD>
+	<TD>1.48748</TD>
+	<TD>4829.00</TD>
+	<TD>87.8</TD>
+	<TD>2008-02-26 08:31:15</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2682</TD>
+	<TD>1.100</TD>
+	<TD>BUY</TD>
+	<TD>1.4787</TD>
+	<TD>1.48748</TD>
+	<TD>9658.00</TD>
+	<TD>87.8</TD>
+	<TD>2008-02-26 08:31:15</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2683</TD>
+	<TD>0.080</TD>
+	<TD>BUY</TD>
+	<TD>1.48655</TD>
+	<TD>1.48748</TD>
+	<TD>74.40</TD>
+	<TD>9.3</TD>
+	<TD>2008-02-26 10:52:34</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2684</TD>
+	<TD>0.040</TD>
+	<TD>BUY</TD>
+	<TD>1.48612</TD>
+	<TD>1.48748</TD>
+	<TD>54.40</TD>
+	<TD>13.6</TD>
+	<TD>2008-02-26 10:56:49</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2685</TD>
+	<TD>0.080</TD>
+	<TD>BUY</TD>
+	<TD>1.48612</TD>
+	<TD>1.48748</TD>
+	<TD>108.80</TD>
+	<TD>13.6</TD>
+	<TD>2008-02-26 10:56:49</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2686</TD>
+	<TD>0.290</TD>
+	<TD>SELL</TD>
+	<TD>1.48748</TD>
+	<TD>1.48745</TD>
+	<TD>8.70</TD>
+	<TD>0.3</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>2008-02-26 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2687</TD>
+	<TD>0.290</TD>
+	<TD>SELL</TD>
+	<TD>1.48748</TD>
+	<TD>1.48745</TD>
+	<TD>8.70</TD>
+	<TD>0.3</TD>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>2008-02-26 13:11:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2688</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.51088</TD>
+	<TD>1.51148</TD>
+	<TD>12.00</TD>
+	<TD>6.0</TD>
+	<TD>2008-02-28 04:31:09</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2689</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51088</TD>
+	<TD>1.51148</TD>
+	<TD>0.60</TD>
+	<TD>6.0</TD>
+	<TD>2008-02-28 04:31:09</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2690</TD>
+	<TD>0.100</TD>
+	<TD>BUY</TD>
+	<TD>1.51001</TD>
+	<TD>1.51148</TD>
+	<TD>147.00</TD>
+	<TD>14.7</TD>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2691</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51001</TD>
+	<TD>1.51148</TD>
+	<TD>1.47</TD>
+	<TD>14.7</TD>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2692</TD>
+	<TD>0.200</TD>
+	<TD>BUY</TD>
+	<TD>1.51001</TD>
+	<TD>1.51148</TD>
+	<TD>294.00</TD>
+	<TD>14.7</TD>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2693</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51001</TD>
+	<TD>1.51148</TD>
+	<TD>1.47</TD>
+	<TD>14.7</TD>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2694</TD>
+	<TD>0.800</TD>
+	<TD>BUY</TD>
+	<TD>1.50891</TD>
+	<TD>1.51148</TD>
+	<TD>2056.00</TD>
+	<TD>25.7</TD>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2695</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.50891</TD>
+	<TD>1.51148</TD>
+	<TD>2.57</TD>
+	<TD>25.7</TD>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2696</TD>
+	<TD>1.600</TD>
+	<TD>BUY</TD>
+	<TD>1.50891</TD>
+	<TD>1.51148</TD>
+	<TD>4112.00</TD>
+	<TD>25.7</TD>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2697</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.50891</TD>
+	<TD>1.51148</TD>
+	<TD>2.57</TD>
+	<TD>25.7</TD>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2698</TD>
+	<TD>0.320</TD>
+	<TD>SELL</TD>
+	<TD>1.51148</TD>
+	<TD>1.51849</TD>
+	<TD>-2243.20</TD>
+	<TD>-70.1</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2699</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.51148</TD>
+	<TD>1.51849</TD>
+	<TD>-7.01</TD>
+	<TD>-70.1</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2700</TD>
+	<TD>0.320</TD>
+	<TD>SELL</TD>
+	<TD>1.51148</TD>
+	<TD>1.51849</TD>
+	<TD>-2243.20</TD>
+	<TD>-70.1</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2701</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.51148</TD>
+	<TD>1.51849</TD>
+	<TD>-7.01</TD>
+	<TD>-70.1</TD>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2702</TD>
+	<TD>0.010</TD>
+	<TD>BUY</TD>
+	<TD>1.51813</TD>
+	<TD>1.51854</TD>
+	<TD>4.10</TD>
+	<TD>4.1</TD>
+	<TD>2008-02-29 04:31:10</TD>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2703</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51813</TD>
+	<TD>1.51854</TD>
+	<TD>0.41</TD>
+	<TD>4.1</TD>
+	<TD>2008-02-29 04:31:10</TD>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2704</TD>
+	<TD>0.210</TD>
+	<TD>BUY</TD>
+	<TD>1.51713</TD>
+	<TD>1.51854</TD>
+	<TD>296.10</TD>
+	<TD>14.1</TD>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2705</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51713</TD>
+	<TD>1.51854</TD>
+	<TD>1.41</TD>
+	<TD>14.1</TD>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2706</TD>
+	<TD>0.420</TD>
+	<TD>BUY</TD>
+	<TD>1.51713</TD>
+	<TD>1.51854</TD>
+	<TD>592.20</TD>
+	<TD>14.1</TD>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2707</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51713</TD>
+	<TD>1.51854</TD>
+	<TD>1.41</TD>
+	<TD>14.1</TD>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2708</TD>
+	<TD>0.040</TD>
+	<TD>BUY</TD>
+	<TD>1.51912</TD>
+	<TD>1.52183</TD>
+	<TD>108.40</TD>
+	<TD>27.1</TD>
+	<TD>2008-03-04 04:31:02</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2709</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51912</TD>
+	<TD>1.52183</TD>
+	<TD>2.71</TD>
+	<TD>27.1</TD>
+	<TD>2008-03-04 04:31:02</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2710</TD>
+	<TD>0.120</TD>
+	<TD>SELL</TD>
+	<TD>1.5181</TD>
+	<TD>1.52198</TD>
+	<TD>-465.60</TD>
+	<TD>-38.8</TD>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2711</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.5181</TD>
+	<TD>1.52198</TD>
+	<TD>-3.88</TD>
+	<TD>-38.8</TD>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2712</TD>
+	<TD>0.240</TD>
+	<TD>SELL</TD>
+	<TD>1.5181</TD>
+	<TD>1.52198</TD>
+	<TD>-931.20</TD>
+	<TD>-38.8</TD>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2713</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.5181</TD>
+	<TD>1.52198</TD>
+	<TD>-3.88</TD>
+	<TD>-38.8</TD>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2714</TD>
+	<TD>0.480</TD>
+	<TD>BUY</TD>
+	<TD>1.51922</TD>
+	<TD>1.52183</TD>
+	<TD>1252.80</TD>
+	<TD>26.1</TD>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2715</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51922</TD>
+	<TD>1.52183</TD>
+	<TD>2.61</TD>
+	<TD>26.1</TD>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2716</TD>
+	<TD>0.960</TD>
+	<TD>BUY</TD>
+	<TD>1.51922</TD>
+	<TD>1.52183</TD>
+	<TD>2505.60</TD>
+	<TD>26.1</TD>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2717</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.51922</TD>
+	<TD>1.52183</TD>
+	<TD>2.61</TD>
+	<TD>26.1</TD>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2718</TD>
+	<TD>0.180</TD>
+	<TD>BUY</TD>
+	<TD>1.52057</TD>
+	<TD>1.52183</TD>
+	<TD>226.80</TD>
+	<TD>12.6</TD>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2719</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.52057</TD>
+	<TD>1.52183</TD>
+	<TD>1.26</TD>
+	<TD>12.6</TD>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2720</TD>
+	<TD>0.180</TD>
+	<TD>BUY</TD>
+	<TD>1.52057</TD>
+	<TD>1.52183</TD>
+	<TD>226.80</TD>
+	<TD>12.6</TD>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2721</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.52057</TD>
+	<TD>1.52183</TD>
+	<TD>1.26</TD>
+	<TD>12.6</TD>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2722</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.52755</TD>
+	<TD>1.53215</TD>
+	<TD>-46.00</TD>
+	<TD>-46.0</TD>
+	<TD>2008-03-06 04:31:02</TD>
+	<TD>2008-03-06 11:07:12</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2723</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.53805</TD>
+	<TD>1.5417</TD>
+	<TD>-36.50</TD>
+	<TD>-36.5</TD>
+	<TD>2008-03-07 04:31:03</TD>
+	<TD>2008-03-07 13:52:35</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2724</TD>
+	<TD>0.090</TD>
+	<TD>BUY</TD>
+	<TD>1.53959</TD>
+	<TD>1.53558</TD>
+	<TD>-360.90</TD>
+	<TD>-40.1</TD>
+	<TD>2008-03-07 09:52:34</TD>
+	<TD>2008-03-07 16:11:08</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2725</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.5357</TD>
+	<TD>1.53975</TD>
+	<TD>-81.00</TD>
+	<TD>-40.5</TD>
+	<TD>2008-03-11 03:31:08</TD>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2726</TD>
+	<TD>0.065</TD>
+	<TD>BUY</TD>
+	<TD>1.53666</TD>
+	<TD>1.53959</TD>
+	<TD>190.45</TD>
+	<TD>29.3</TD>
+	<TD>2008-03-11 05:47:45</TD>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2727</TD>
+	<TD>0.130</TD>
+	<TD>BUY</TD>
+	<TD>1.53666</TD>
+	<TD>1.53959</TD>
+	<TD>380.90</TD>
+	<TD>29.3</TD>
+	<TD>2008-03-11 05:47:45</TD>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2728</TD>
+	<TD>0.250</TD>
+	<TD>SELL</TD>
+	<TD>1.53559</TD>
+	<TD>1.53975</TD>
+	<TD>-1040.00</TD>
+	<TD>-41.6</TD>
+	<TD>2008-03-11 07:49:43</TD>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2729</TD>
+	<TD>0.500</TD>
+	<TD>SELL</TD>
+	<TD>1.53559</TD>
+	<TD>1.53975</TD>
+	<TD>-2080.00</TD>
+	<TD>-41.6</TD>
+	<TD>2008-03-11 07:49:43</TD>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2730</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.5582</TD>
+	<TD>1.55435</TD>
+	<TD>38.50</TD>
+	<TD>38.5</TD>
+	<TD>2008-03-13 03:31:08</TD>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2731</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.55429</TD>
+	<TD>1.55925</TD>
+	<TD>-99.20</TD>
+	<TD>-49.6</TD>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>2008-03-13 10:39:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2732</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.55429</TD>
+	<TD>1.55925</TD>
+	<TD>-99.20</TD>
+	<TD>-49.6</TD>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>2008-03-13 10:39:13</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2733</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.56026</TD>
+	<TD>1.55654</TD>
+	<TD>37.20</TD>
+	<TD>37.2</TD>
+	<TD>2008-03-14 03:31:09</TD>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2734</TD>
+	<TD>0.160</TD>
+	<TD>BUY</TD>
+	<TD>1.56022</TD>
+	<TD>1.55644</TD>
+	<TD>-604.80</TD>
+	<TD>-37.8</TD>
+	<TD>2008-03-14 07:58:07</TD>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2735</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.55644</TD>
+	<TD>1.5619</TD>
+	<TD>-54.60</TD>
+	<TD>-54.6</TD>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>2008-03-14 15:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2736</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.55644</TD>
+	<TD>1.5619</TD>
+	<TD>-109.20</TD>
+	<TD>-54.6</TD>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>2008-03-14 15:11:06</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2737</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.57748</TD>
+	<TD>1.58085</TD>
+	<TD>-33.70</TD>
+	<TD>-33.7</TD>
+	<TD>2008-03-18 03:31:08</TD>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2738</TD>
+	<TD>0.105</TD>
+	<TD>BUY</TD>
+	<TD>1.57839</TD>
+	<TD>1.5808</TD>
+	<TD>253.05</TD>
+	<TD>24.1</TD>
+	<TD>2008-03-18 06:20:00</TD>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2739</TD>
+	<TD>0.210</TD>
+	<TD>BUY</TD>
+	<TD>1.57839</TD>
+	<TD>1.5808</TD>
+	<TD>506.10</TD>
+	<TD>24.1</TD>
+	<TD>2008-03-18 06:20:00</TD>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2740</TD>
+	<TD>0.200</TD>
+	<TD>SELL</TD>
+	<TD>1.57556</TD>
+	<TD>1.58085</TD>
+	<TD>-1058.00</TD>
+	<TD>-52.9</TD>
+	<TD>2008-03-18 08:20:05</TD>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2741</TD>
+	<TD>0.400</TD>
+	<TD>SELL</TD>
+	<TD>1.57556</TD>
+	<TD>1.58085</TD>
+	<TD>-2116.00</TD>
+	<TD>-52.9</TD>
+	<TD>2008-03-18 08:20:05</TD>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2744</TD>
+	<TD>1.600</TD>
+	<TD>SELL</TD>
+	<TD>1.55689</TD>
+	<TD>1.54636</TD>
+	<TD>16848.00</TD>
+	<TD>105.3</TD>
+	<TD>2008-03-20 07:20:47</TD>
+	<TD>2008-03-20 09:52:35</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2742</TD>
+	<TD>0.020</TD>
+	<TD>BUY</TD>
+	<TD>1.55822</TD>
+	<TD>1.54539</TD>
+	<TD>-256.60</TD>
+	<TD>-128.3</TD>
+	<TD>2008-03-20 03:31:09</TD>
+	<TD>2008-03-20 11:08:37</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2743</TD>
+	<TD>0.800</TD>
+	<TD>SELL</TD>
+	<TD>1.55689</TD>
+	<TD>1.54513</TD>
+	<TD>9408.00</TD>
+	<TD>117.6</TD>
+	<TD>2008-03-20 07:20:47</TD>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2745</TD>
+	<TD>0.820</TD>
+	<TD>BUY</TD>
+	<TD>1.54603</TD>
+	<TD>1.54503</TD>
+	<TD>-820.00</TD>
+	<TD>-10.0</TD>
+	<TD>2008-03-20 11:08:47</TD>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2746</TD>
+	<TD>0.410</TD>
+	<TD>BUY</TD>
+	<TD>1.54513</TD>
+	<TD>1.54446</TD>
+	<TD>-274.70</TD>
+	<TD>-6.7</TD>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>2008-03-20 12:11:15</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2747</TD>
+	<TD>0.820</TD>
+	<TD>BUY</TD>
+	<TD>1.54513</TD>
+	<TD>1.54446</TD>
+	<TD>-549.40</TD>
+	<TD>-6.7</TD>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>2008-03-20 12:11:15</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2748</TD>
+	<TD>0.030</TD>
+	<TD>BUY</TD>
+	<TD>1.54261</TD>
+	<TD>1.54429</TD>
+	<TD>50.40</TD>
+	<TD>16.8</TD>
+	<TD>2008-03-21 03:31:09</TD>
+	<TD>2008-03-21 15:11:04</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2749</TD>
+	<TD>0.820</TD>
+	<TD>SELL</TD>
+	<TD>1.54263</TD>
+	<TD>1.54439</TD>
+	<TD>-1443.20</TD>
+	<TD>-17.6</TD>
+	<TD>2008-03-21 11:00:00</TD>
+	<TD>2008-03-21 15:11:04</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2750</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.55374</TD>
+	<TD>1.55754</TD>
+	<TD>-38.00</TD>
+	<TD>-38.0</TD>
+	<TD>2008-03-25 03:31:35</TD>
+	<TD>2008-03-25 13:49:22</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2751</TD>
+	<TD>0.001</TD>
+	<TD>SELL</TD>
+	<TD>1.55374</TD>
+	<TD>1.55842</TD>
+	<TD>-4.68</TD>
+	<TD>-46.8</TD>
+	<TD>2008-03-25 03:31:35</TD>
+	<TD>2008-03-25 15:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2752</TD>
+	<TD>0.110</TD>
+	<TD>BUY</TD>
+	<TD>1.55446</TD>
+	<TD>1.55837</TD>
+	<TD>430.10</TD>
+	<TD>39.1</TD>
+	<TD>2008-03-25 07:17:25</TD>
+	<TD>2008-03-25 15:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_BUY_2753</TD>
+	<TD>0.001</TD>
+	<TD>BUY</TD>
+	<TD>1.55446</TD>
+	<TD>1.55837</TD>
+	<TD>3.91</TD>
+	<TD>39.1</TD>
+	<TD>2008-03-25 07:17:25</TD>
+	<TD>2008-03-25 15:11:03</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2754</TD>
+	<TD>0.020</TD>
+	<TD>SELL</TD>
+	<TD>1.58072</TD>
+	<TD>1.57879</TD>
+	<TD>38.60</TD>
+	<TD>19.3</TD>
+	<TD>2008-03-27 03:31:35</TD>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2755</TD>
+	<TD>1.680</TD>
+	<TD>SELL</TD>
+	<TD>1.57863</TD>
+	<TD>1.57936</TD>
+	<TD>-1226.40</TD>
+	<TD>-7.3</TD>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>2008-03-27 10:09:46</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2756</TD>
+	<TD>1.680</TD>
+	<TD>SELL</TD>
+	<TD>1.57863</TD>
+	<TD>1.57936</TD>
+	<TD>-1226.40</TD>
+	<TD>-7.3</TD>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>2008-03-27 10:09:46</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2757</TD>
+	<TD>0.010</TD>
+	<TD>SELL</TD>
+	<TD>1.57885</TD>
+	<TD>1.57717</TD>
+	<TD>16.80</TD>
+	<TD>16.8</TD>
+	<TD>2008-03-28 03:31:36</TD>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2758</TD>
+	<TD>1.620</TD>
+	<TD>SELL</TD>
+	<TD>1.57697</TD>
+	<TD>1.57912</TD>
+	<TD>-3483.00</TD>
+	<TD>-21.5</TD>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>2008-03-28 10:00:02</TD>
+	<TD></TD>
+</TR><TR>
+	<TD>nextDay_SELL_2759</TD>
+	<TD>1.620</TD>
+	<TD>SELL</TD>
+	<TD>1.57697</TD>
+	<TD>1.57912</TD>
+	<TD>-3483.00</TD>
+	<TD>-21.5</TD>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>2008-03-28 10:00:02</TD>
+	<TD></TD>
+</TR></TABLE>
+<BR>
+<h2>Processing statistic:</h2><BR>
+<TABLE class="simple">
+<TR>
+	<th>Function</th>
+	<th>Time</th>
+	<th>Calls</th>
+	<th>Percent</th>
+</TR><TR>
+	<TD>Ticks/Bars internal processing</TD>
+	<TD>41s 905.08ms</TD>
+	<TD>1230111</TD>
+	<TD>34.76%</TD>
+</TR><TR>
+	<TD>onTick method calls</TD>
+	<TD>30s 369.28ms</TD>
+	<TD>443871</TD>
+	<TD>25.19%</TD>
+</TR><TR>
+	<TD>Ticks/Bars/Account Info data writing for charts</TD>
+	<TD>27s 117.07ms</TD>
+	<TD>2646515</TD>
+	<TD>22.49%</TD>
+</TR><TR>
+	<TD>onBar method calls</TD>
+	<TD>10s 951.53ms</TD>
+	<TD>786240</TD>
+	<TD>9.08%</TD>
+</TR><TR>
+	<TD>Account information calculations</TD>
+	<TD>8s 961.91ms</TD>
+	<TD>2016741</TD>
+	<TD>7.43%</TD>
+</TR><TR>
+	<TD>Indicator calculations</TD>
+	<TD>517.81ms</TD>
+	<TD>912</TD>
+	<TD>0.43%</TD>
+</TR><TR>
+	<TD>Conditional orders processing</TD>
+	<TD>239.94ms</TD>
+	<TD>265339</TD>
+	<TD>0.2%</TD>
+</TR><TR>
+	<TD>Historical data calls (including indicators data calls)</TD>
+	<TD>216.33ms</TD>
+	<TD>912</TD>
+	<TD>0.18%</TD>
+</TR><TR>
+	<TD>Order changes processing "on server side"</TD>
+	<TD>189.87ms</TD>
+	<TD>157</TD>
+	<TD>0.16%</TD>
+</TR><TR>
+	<TD>Margin call/cut checks</TD>
+	<TD>51.98ms</TD>
+	<TD>1010152</TD>
+	<TD>0.04%</TD>
+</TR><TR>
+	<TD>onAccount method calls</TD>
+	<TD>33.10ms</TD>
+	<TD>786404</TD>
+	<TD>0.03%</TD>
+</TR><TR>
+	<TD>onStop method calls</TD>
+	<TD>15.56ms</TD>
+	<TD>1</TD>
+	<TD>0.01%</TD>
+</TR><TR>
+	<TD>onStart method calls</TD>
+	<TD></TD>
+	<TD>1</TD>
+	<TD>0%</TD>
+</TR><TR>
+	<TD>onMessage method calls</TD>
+	<TD></TD>
+	<TD>624</TD>
+	<TD>0%</TD>
+</TR><TR>
+	<TD>Ticks/Bars data reads</TD>
+	<TD></TD>
+	<TD>0</TD>
+	<TD>0%</TD>
+</TR><TR>
+	<TD>User tasks (IContext.executeTask) processing</TD>
+	<TD></TD>
+	<TD>0</TD>
+	<TD>0%</TD>
+</TR><TR>
+	<TD>Other operations</TD>
+	<TD></TD>
+	<TD>0</TD>
+	<TD>0%</TD>
+</TR>
+</TABLE><h2>Event log:</h2><BR>
+<TABLE class="simple">
+<TR>
+	<th>Time</th>
+	<th>Event type</th>
+	<th>Event text</th>
+</TR><TR>
+	<TD>2008-01-01 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-02 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-03 04:31:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2552, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-03 04:31:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2553, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-03 04:31:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2552, EUR/USD, BUY, 20000.0 at 1.47145] filled</TD>
+</TR><TR>
+	<TD>2008-01-03 04:31:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2553, EUR/USD, BUY, 1000.0 at 1.47145] filled</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2554, EUR/USD, BUY, 100000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2555, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2556, EUR/USD, BUY, 200000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2557, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2554, EUR/USD, BUY, 100000.0 at 1.47041] filled</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2555, EUR/USD, BUY, 1000.0 at 1.47041] filled</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2556, EUR/USD, BUY, 200000.0 at 1.47041] filled</TD>
+</TR><TR>
+	<TD>2008-01-03 08:05:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2557, EUR/USD, BUY, 1000.0 at 1.47041] filled</TD>
+</TR><TR>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2552, EUR/USD, BUY, 20000.0 at 1.47145] closed in result of strategy request, amount 20000.0 at 1.47221</TD>
+</TR><TR>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2553, EUR/USD, BUY, 1000.0 at 1.47145] closed in result of strategy request, amount 1000.0 at 1.47221</TD>
+</TR><TR>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2554, EUR/USD, BUY, 100000.0 at 1.47041] closed in result of strategy request, amount 100000.0 at 1.47221</TD>
+</TR><TR>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2555, EUR/USD, BUY, 1000.0 at 1.47041] closed in result of strategy request, amount 1000.0 at 1.47221</TD>
+</TR><TR>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2556, EUR/USD, BUY, 200000.0 at 1.47041] closed in result of strategy request, amount 200000.0 at 1.47221</TD>
+</TR><TR>
+	<TD>2008-01-03 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2557, EUR/USD, BUY, 1000.0 at 1.47041] closed in result of strategy request, amount 1000.0 at 1.47221</TD>
+</TR><TR>
+	<TD>2008-01-03 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [17.11]</TD>
+</TR><TR>
+	<TD>2008-01-04 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2558, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-04 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2558, EUR/USD, SELL, 40000.0 at 1.47411] filled</TD>
+</TR><TR>
+	<TD>2008-01-04 12:00:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2559, EUR/USD, SELL, 500000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-04 12:00:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2559, EUR/USD, SELL, 500000.0 at 1.47133] filled</TD>
+</TR><TR>
+	<TD>2008-01-04 16:11:10</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2558, EUR/USD, SELL, 40000.0 at 1.47411] closed in result of strategy request, amount 40000.0 at 1.4784</TD>
+</TR><TR>
+	<TD>2008-01-04 16:11:10</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2559, EUR/USD, SELL, 500000.0 at 1.47133] closed in result of strategy request, amount 500000.0 at 1.4784</TD>
+</TR><TR>
+	<TD>2008-01-04 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [28.67]</TD>
+</TR><TR>
+	<TD>2008-01-07 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-08 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2560, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-08 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2560, EUR/USD, BUY, 10000.0 at 1.47] filled</TD>
+</TR><TR>
+	<TD>2008-01-08 06:42:34</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2561, EUR/USD, BUY, 45000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-08 06:42:34</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2562, EUR/USD, BUY, 90000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-08 06:42:34</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2561, EUR/USD, BUY, 45000.0 at 1.46916] filled</TD>
+</TR><TR>
+	<TD>2008-01-08 06:42:34</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2562, EUR/USD, BUY, 90000.0 at 1.46916] filled</TD>
+</TR><TR>
+	<TD>2008-01-08 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2560, EUR/USD, BUY, 10000.0 at 1.47] closed in result of strategy request, amount 10000.0 at 1.4714</TD>
+</TR><TR>
+	<TD>2008-01-08 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2561, EUR/USD, BUY, 45000.0 at 1.46916] closed in result of strategy request, amount 45000.0 at 1.4714</TD>
+</TR><TR>
+	<TD>2008-01-08 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2562, EUR/USD, BUY, 90000.0 at 1.46916] closed in result of strategy request, amount 90000.0 at 1.4714</TD>
+</TR><TR>
+	<TD>2008-01-08 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [10.66]</TD>
+</TR><TR>
+	<TD>2008-01-09 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-10 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2563, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-10 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2563, EUR/USD, SELL, 40000.0 at 1.46583] filled</TD>
+</TR><TR>
+	<TD>2008-01-10 08:05:37</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2564, EUR/USD, SELL, 45000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-10 08:05:37</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2565, EUR/USD, SELL, 90000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-10 08:05:37</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2564, EUR/USD, SELL, 45000.0 at 1.46659] filled</TD>
+</TR><TR>
+	<TD>2008-01-10 08:05:37</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2565, EUR/USD, SELL, 90000.0 at 1.46659] filled</TD>
+</TR><TR>
+	<TD>2008-01-10 10:05:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2566, EUR/USD, SELL, 45000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-10 10:05:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2567, EUR/USD, SELL, 90000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-10 10:05:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2566, EUR/USD, SELL, 45000.0 at 1.46843] filled</TD>
+</TR><TR>
+	<TD>2008-01-10 10:05:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2567, EUR/USD, SELL, 90000.0 at 1.46843] filled</TD>
+</TR><TR>
+	<TD>2008-01-10 12:51:14</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2568, EUR/USD, SELL, 140000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-10 12:51:14</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2568, EUR/USD, SELL, 140000.0 at 1.46635] filled</TD>
+</TR><TR>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2563, EUR/USD, SELL, 40000.0 at 1.46583] closed in result of strategy request, amount 40000.0 at 1.47356</TD>
+</TR><TR>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2564, EUR/USD, SELL, 45000.0 at 1.46659] closed in result of strategy request, amount 45000.0 at 1.47356</TD>
+</TR><TR>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2565, EUR/USD, SELL, 90000.0 at 1.46659] closed in result of strategy request, amount 90000.0 at 1.47356</TD>
+</TR><TR>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2566, EUR/USD, SELL, 45000.0 at 1.46843] closed in result of strategy request, amount 45000.0 at 1.47356</TD>
+</TR><TR>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2567, EUR/USD, SELL, 90000.0 at 1.46843] closed in result of strategy request, amount 90000.0 at 1.47356</TD>
+</TR><TR>
+	<TD>2008-01-10 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2568, EUR/USD, SELL, 140000.0 at 1.46635] closed in result of strategy request, amount 140000.0 at 1.47356</TD>
+</TR><TR>
+	<TD>2008-01-10 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [33.08]</TD>
+</TR><TR>
+	<TD>2008-01-11 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2569, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2570, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2569, EUR/USD, BUY, 10000.0 at 1.48088] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2570, EUR/USD, BUY, 1000.0 at 1.48088] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2571, EUR/USD, BUY, 45000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2572, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2573, EUR/USD, BUY, 90000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2574, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2571, EUR/USD, BUY, 45000.0 at 1.48002] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2572, EUR/USD, BUY, 1000.0 at 1.48002] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2573, EUR/USD, BUY, 90000.0 at 1.48002] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 06:31:22</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2574, EUR/USD, BUY, 1000.0 at 1.48002] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2575, EUR/USD, BUY, 175000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2576, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2577, EUR/USD, BUY, 350000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2578, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2575, EUR/USD, BUY, 175000.0 at 1.47922] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2576, EUR/USD, BUY, 1000.0 at 1.47922] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2577, EUR/USD, BUY, 350000.0 at 1.47922] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 08:32:42</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2578, EUR/USD, BUY, 1000.0 at 1.47922] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 10:02:33</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2579, EUR/USD, BUY, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 10:02:33</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2580, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 10:02:33</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2579, EUR/USD, BUY, 60000.0 at 1.47787] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 10:02:33</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2580, EUR/USD, BUY, 1000.0 at 1.47787] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2581, EUR/USD, BUY, 30000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2582, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2583, EUR/USD, BUY, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2584, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2581, EUR/USD, BUY, 30000.0 at 1.4777] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2582, EUR/USD, BUY, 1000.0 at 1.4777] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2583, EUR/USD, BUY, 60000.0 at 1.4777] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 12:04:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2584, EUR/USD, BUY, 1000.0 at 1.4777] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 13:26:25</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2585, EUR/USD, BUY, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 13:26:25</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2586, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-11 13:26:25</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2585, EUR/USD, BUY, 60000.0 at 1.47821] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 13:26:25</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2586, EUR/USD, BUY, 1000.0 at 1.47821] filled</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2569, EUR/USD, BUY, 10000.0 at 1.48088] closed in result of strategy request, amount 10000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2570, EUR/USD, BUY, 1000.0 at 1.48088] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2571, EUR/USD, BUY, 45000.0 at 1.48002] closed in result of strategy request, amount 45000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2572, EUR/USD, BUY, 1000.0 at 1.48002] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2573, EUR/USD, BUY, 90000.0 at 1.48002] closed in result of strategy request, amount 90000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2574, EUR/USD, BUY, 1000.0 at 1.48002] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2575, EUR/USD, BUY, 175000.0 at 1.47922] closed in result of strategy request, amount 175000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2576, EUR/USD, BUY, 1000.0 at 1.47922] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2577, EUR/USD, BUY, 350000.0 at 1.47922] closed in result of strategy request, amount 350000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2578, EUR/USD, BUY, 1000.0 at 1.47922] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2579, EUR/USD, BUY, 60000.0 at 1.47787] closed in result of strategy request, amount 60000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2580, EUR/USD, BUY, 1000.0 at 1.47787] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2581, EUR/USD, BUY, 30000.0 at 1.4777] closed in result of strategy request, amount 30000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2582, EUR/USD, BUY, 1000.0 at 1.4777] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2583, EUR/USD, BUY, 60000.0 at 1.4777] closed in result of strategy request, amount 60000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2584, EUR/USD, BUY, 1000.0 at 1.4777] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2585, EUR/USD, BUY, 60000.0 at 1.47821] closed in result of strategy request, amount 60000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2586, EUR/USD, BUY, 1000.0 at 1.47821] closed in result of strategy request, amount 1000.0 at 1.47894</TD>
+</TR><TR>
+	<TD>2008-01-11 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [65.74]</TD>
+</TR><TR>
+	<TD>2008-01-14 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-15 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2587, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2587, EUR/USD, BUY, 20000.0 at 1.48784] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 06:31:21</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2588, EUR/USD, BUY, 45000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 06:31:21</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2589, EUR/USD, BUY, 90000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 06:31:21</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2588, EUR/USD, BUY, 45000.0 at 1.48689] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 06:31:21</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2589, EUR/USD, BUY, 90000.0 at 1.48689] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 08:31:21</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2590, EUR/USD, BUY, 350000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 08:31:21</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2591, EUR/USD, BUY, 700000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 08:31:21</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2590, EUR/USD, BUY, 350000.0 at 1.48548] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 08:31:21</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2591, EUR/USD, BUY, 700000.0 at 1.48548] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 11:08:04</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2592, EUR/USD, BUY, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 11:08:04</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2592, EUR/USD, BUY, 60000.0 at 1.48575] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 12:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2593, EUR/USD, BUY, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 12:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2594, EUR/USD, BUY, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 12:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2593, EUR/USD, BUY, 60000.0 at 1.48611] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 12:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2594, EUR/USD, BUY, 60000.0 at 1.48611] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2587, EUR/USD, BUY, 20000.0 at 1.48784] closed in result of strategy request, amount 20000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2588, EUR/USD, BUY, 45000.0 at 1.48689] closed in result of strategy request, amount 45000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2589, EUR/USD, BUY, 90000.0 at 1.48689] closed in result of strategy request, amount 90000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2590, EUR/USD, BUY, 350000.0 at 1.48548] closed in result of strategy request, amount 350000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2591, EUR/USD, BUY, 700000.0 at 1.48548] closed in result of strategy request, amount 700000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2592, EUR/USD, BUY, 60000.0 at 1.48575] closed in result of strategy request, amount 60000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2593, EUR/USD, BUY, 60000.0 at 1.48611] closed in result of strategy request, amount 60000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2594, EUR/USD, BUY, 60000.0 at 1.48611] closed in result of strategy request, amount 60000.0 at 1.48783</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2595, EUR/USD, SELL, 230000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2596, EUR/USD, SELL, 230000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2595, EUR/USD, SELL, 230000.0 at 1.48783] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2596, EUR/USD, SELL, 230000.0 at 1.48783] filled</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2595, EUR/USD, SELL, 230000.0 at 1.48783] closed in result of strategy request, amount 230000.0 at 1.4879</TD>
+</TR><TR>
+	<TD>2008-01-15 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2596, EUR/USD, SELL, 230000.0 at 1.48783] closed in result of strategy request, amount 230000.0 at 1.4879</TD>
+</TR><TR>
+	<TD>2008-01-15 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [137.18]</TD>
+</TR><TR>
+	<TD>2008-01-16 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-17 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2597, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2597, EUR/USD, SELL, 20000.0 at 1.46532] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 06:33:16</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2598, EUR/USD, SELL, 160000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 06:33:16</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2599, EUR/USD, SELL, 320000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 06:33:16</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2598, EUR/USD, SELL, 160000.0 at 1.46629] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 06:33:16</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2599, EUR/USD, SELL, 320000.0 at 1.46629] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 11:21:16</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2600, EUR/USD, SELL, 160000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 11:21:16</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2601, EUR/USD, SELL, 160000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 11:21:16</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2600, EUR/USD, SELL, 160000.0 at 1.46715] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 11:21:16</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2601, EUR/USD, SELL, 160000.0 at 1.46715] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2602, EUR/USD, SELL, 70000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2603, EUR/USD, SELL, 140000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2604, EUR/USD, SELL, 140000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2602, EUR/USD, SELL, 70000.0 at 1.46729] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2603, EUR/USD, SELL, 140000.0 at 1.46729] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 15:31:05</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2604, EUR/USD, SELL, 140000.0 at 1.46729] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 15:37:53</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2605, EUR/USD, SELL, 30000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 15:37:53</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2606, EUR/USD, SELL, 60000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-17 15:37:53</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2605, EUR/USD, SELL, 30000.0 at 1.46852] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 15:37:53</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2606, EUR/USD, SELL, 60000.0 at 1.46852] filled</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2597, EUR/USD, SELL, 20000.0 at 1.46532] closed in result of strategy request, amount 20000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2598, EUR/USD, SELL, 160000.0 at 1.46629] closed in result of strategy request, amount 160000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2599, EUR/USD, SELL, 320000.0 at 1.46629] closed in result of strategy request, amount 320000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2600, EUR/USD, SELL, 160000.0 at 1.46715] closed in result of strategy request, amount 160000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2601, EUR/USD, SELL, 160000.0 at 1.46715] closed in result of strategy request, amount 160000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2602, EUR/USD, SELL, 70000.0 at 1.46729] closed in result of strategy request, amount 70000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2603, EUR/USD, SELL, 140000.0 at 1.46729] closed in result of strategy request, amount 140000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2604, EUR/USD, SELL, 140000.0 at 1.46729] closed in result of strategy request, amount 140000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2605, EUR/USD, SELL, 30000.0 at 1.46852] closed in result of strategy request, amount 30000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2606, EUR/USD, SELL, 60000.0 at 1.46852] closed in result of strategy request, amount 60000.0 at 1.46883</TD>
+</TR><TR>
+	<TD>2008-01-17 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [92.48]</TD>
+</TR><TR>
+	<TD>2008-01-18 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2607, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-18 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2607, EUR/USD, SELL, 10000.0 at 1.46542] filled</TD>
+</TR><TR>
+	<TD>2008-01-18 12:00:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2608, EUR/USD, SELL, 220000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-18 12:00:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2608, EUR/USD, SELL, 220000.0 at 1.46485] filled</TD>
+</TR><TR>
+	<TD>2008-01-18 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2607, EUR/USD, SELL, 10000.0 at 1.46542] closed in result of strategy request, amount 10000.0 at 1.46231</TD>
+</TR><TR>
+	<TD>2008-01-18 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2608, EUR/USD, SELL, 220000.0 at 1.46485] closed in result of strategy request, amount 220000.0 at 1.46231</TD>
+</TR><TR>
+	<TD>2008-01-18 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [16.83]</TD>
+</TR><TR>
+	<TD>2008-01-21 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-22 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2609, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-22 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2609, EUR/USD, SELL, 20000.0 at 1.44303] filled</TD>
+</TR><TR>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2609, EUR/USD, SELL, 20000.0 at 1.44303] closed in result of strategy request, amount 20000.0 at 1.43928</TD>
+</TR><TR>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2610, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2611, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2610, EUR/USD, BUY, 20000.0 at 1.43928] filled</TD>
+</TR><TR>
+	<TD>2008-01-22 07:38:19</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2611, EUR/USD, BUY, 20000.0 at 1.43928] filled</TD>
+</TR><TR>
+	<TD>2008-01-22 11:02:38</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2611, EUR/USD, BUY, 20000.0 at 1.43928] closed by take profit event, amount 20000.0 at 1.45042</TD>
+</TR><TR>
+	<TD>2008-01-22 12:00:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2612, EUR/USD, BUY, 230000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-22 12:00:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2612, EUR/USD, BUY, 230000.0 at 1.45073] filled</TD>
+</TR><TR>
+	<TD>2008-01-22 13:20:51</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2610, EUR/USD, BUY, 20000.0 at 1.43928] closed in result of strategy request, amount 20000.0 at 1.45809</TD>
+</TR><TR>
+	<TD>2008-01-22 13:20:51</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2612, EUR/USD, BUY, 230000.0 at 1.45073] closed in result of strategy request, amount 230000.0 at 1.45809</TD>
+</TR><TR>
+	<TD>2008-01-22 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [21.06]</TD>
+</TR><TR>
+	<TD>2008-01-23 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-24 04:31:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2613, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-24 04:31:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2613, EUR/USD, BUY, 10000.0 at 1.46165] filled</TD>
+</TR><TR>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2613, EUR/USD, BUY, 10000.0 at 1.46165] closed in result of strategy request, amount 10000.0 at 1.46358</TD>
+</TR><TR>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2614, EUR/USD, SELL, 500000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2615, EUR/USD, SELL, 500000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2614, EUR/USD, SELL, 500000.0 at 1.46358] filled</TD>
+</TR><TR>
+	<TD>2008-01-24 10:56:06</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2615, EUR/USD, SELL, 500000.0 at 1.46358] filled</TD>
+</TR><TR>
+	<TD>2008-01-24 11:16:21</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2614, EUR/USD, SELL, 500000.0 at 1.46358] closed in result of strategy request, amount 500000.0 at 1.46642</TD>
+</TR><TR>
+	<TD>2008-01-24 11:16:21</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2615, EUR/USD, SELL, 500000.0 at 1.46358] closed in result of strategy request, amount 500000.0 at 1.46642</TD>
+</TR><TR>
+	<TD>2008-01-24 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [73.98]</TD>
+</TR><TR>
+	<TD>2008-01-25 04:31:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2616, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-25 04:31:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2616, EUR/USD, BUY, 10000.0 at 1.47586] filled</TD>
+</TR><TR>
+	<TD>2008-01-25 12:00:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2617, EUR/USD, BUY, 220000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-25 12:00:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2617, EUR/USD, BUY, 220000.0 at 1.47038] filled</TD>
+</TR><TR>
+	<TD>2008-01-25 12:03:35</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2616, EUR/USD, BUY, 10000.0 at 1.47586] closed in result of strategy request, amount 10000.0 at 1.47018</TD>
+</TR><TR>
+	<TD>2008-01-25 12:03:46</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2618, EUR/USD, BUY, 220000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-25 12:03:46</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2618, EUR/USD, BUY, 220000.0 at 1.47007] filled</TD>
+</TR><TR>
+	<TD>2008-01-25 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2617, EUR/USD, BUY, 220000.0 at 1.47038] closed in result of strategy request, amount 220000.0 at 1.47036</TD>
+</TR><TR>
+	<TD>2008-01-25 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2618, EUR/USD, BUY, 220000.0 at 1.47007] closed in result of strategy request, amount 220000.0 at 1.47036</TD>
+</TR><TR>
+	<TD>2008-01-25 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [33.08]</TD>
+</TR><TR>
+	<TD>2008-01-28 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-29 04:31:11</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2619, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-29 04:31:11</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2619, EUR/USD, BUY, 20000.0 at 1.47686] filled</TD>
+</TR><TR>
+	<TD>2008-01-29 07:15:28</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2620, EUR/USD, BUY, 150000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-29 07:15:28</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2621, EUR/USD, BUY, 300000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-29 07:15:28</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2620, EUR/USD, BUY, 150000.0 at 1.47604] filled</TD>
+</TR><TR>
+	<TD>2008-01-29 07:15:28</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2621, EUR/USD, BUY, 300000.0 at 1.47604] filled</TD>
+</TR><TR>
+	<TD>2008-01-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2619, EUR/USD, BUY, 20000.0 at 1.47686] closed in result of strategy request, amount 20000.0 at 1.47627</TD>
+</TR><TR>
+	<TD>2008-01-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2620, EUR/USD, BUY, 150000.0 at 1.47604] closed in result of strategy request, amount 150000.0 at 1.47627</TD>
+</TR><TR>
+	<TD>2008-01-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2621, EUR/USD, BUY, 300000.0 at 1.47604] closed in result of strategy request, amount 300000.0 at 1.47627</TD>
+</TR><TR>
+	<TD>2008-01-29 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [34.69]</TD>
+</TR><TR>
+	<TD>2008-01-30 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-01-31 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2622, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2623, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2622, EUR/USD, BUY, 20000.0 at 1.48438] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2623, EUR/USD, BUY, 1000.0 at 1.48438] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2624, EUR/USD, BUY, 620000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2625, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2626, EUR/USD, BUY, 1240000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2627, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2624, EUR/USD, BUY, 620000.0 at 1.48357] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2625, EUR/USD, BUY, 1000.0 at 1.48357] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2626, EUR/USD, BUY, 1240000.0 at 1.48357] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 08:10:49</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2627, EUR/USD, BUY, 1000.0 at 1.48357] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2622, EUR/USD, BUY, 20000.0 at 1.48438] closed in result of strategy request, amount 20000.0 at 1.48698</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2623, EUR/USD, BUY, 1000.0 at 1.48438] closed in result of strategy request, amount 1000.0 at 1.48698</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2624, EUR/USD, BUY, 620000.0 at 1.48357] closed in result of strategy request, amount 620000.0 at 1.48698</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2625, EUR/USD, BUY, 1000.0 at 1.48357] closed in result of strategy request, amount 1000.0 at 1.48698</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2626, EUR/USD, BUY, 1240000.0 at 1.48357] closed in result of strategy request, amount 1240000.0 at 1.48698</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2627, EUR/USD, BUY, 1000.0 at 1.48357] closed in result of strategy request, amount 1000.0 at 1.48698</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2628, EUR/USD, SELL, 250000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2629, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2630, EUR/USD, SELL, 250000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2631, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2628, EUR/USD, SELL, 250000.0 at 1.48698] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2629, EUR/USD, SELL, 1000.0 at 1.48698] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2630, EUR/USD, SELL, 250000.0 at 1.48698] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2631, EUR/USD, SELL, 1000.0 at 1.48698] filled</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2628, EUR/USD, SELL, 250000.0 at 1.48698] closed in result of strategy request, amount 250000.0 at 1.48685</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2629, EUR/USD, SELL, 1000.0 at 1.48698] closed in result of strategy request, amount 1000.0 at 1.48685</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2630, EUR/USD, SELL, 250000.0 at 1.48698] closed in result of strategy request, amount 250000.0 at 1.48685</TD>
+</TR><TR>
+	<TD>2008-01-31 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2631, EUR/USD, SELL, 1000.0 at 1.48698] closed in result of strategy request, amount 1000.0 at 1.48685</TD>
+</TR><TR>
+	<TD>2008-01-31 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [177.16]</TD>
+</TR><TR>
+	<TD>2008-02-01 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2632, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-01 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2632, EUR/USD, BUY, 10000.0 at 1.48724] filled</TD>
+</TR><TR>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2632, EUR/USD, BUY, 10000.0 at 1.48724] closed in result of strategy request, amount 10000.0 at 1.4889</TD>
+</TR><TR>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2633, EUR/USD, SELL, 530000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2634, EUR/USD, SELL, 530000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2633, EUR/USD, SELL, 530000.0 at 1.4889] filled</TD>
+</TR><TR>
+	<TD>2008-02-01 08:16:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2634, EUR/USD, SELL, 530000.0 at 1.4889] filled</TD>
+</TR><TR>
+	<TD>2008-02-01 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2633, EUR/USD, SELL, 530000.0 at 1.4889] closed in result of strategy request, amount 530000.0 at 1.48424</TD>
+</TR><TR>
+	<TD>2008-02-01 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2634, EUR/USD, SELL, 530000.0 at 1.4889] closed in result of strategy request, amount 530000.0 at 1.48424</TD>
+</TR><TR>
+	<TD>2008-02-01 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [57.26]</TD>
+</TR><TR>
+	<TD>2008-02-04 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-05 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2635, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-05 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2635, EUR/USD, SELL, 20000.0 at 1.48157] filled</TD>
+</TR><TR>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2635, EUR/USD, SELL, 20000.0 at 1.48157] closed in result of strategy request, amount 20000.0 at 1.47987</TD>
+</TR><TR>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2636, EUR/USD, BUY, 660000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2637, EUR/USD, BUY, 660000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2636, EUR/USD, BUY, 660000.0 at 1.47987] filled</TD>
+</TR><TR>
+	<TD>2008-02-05 08:05:38</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2637, EUR/USD, BUY, 660000.0 at 1.47987] filled</TD>
+</TR><TR>
+	<TD>2008-02-05 11:00:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2636, EUR/USD, BUY, 660000.0 at 1.47987] closed in result of strategy request, amount 660000.0 at 1.46804</TD>
+</TR><TR>
+	<TD>2008-02-05 11:00:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2637, EUR/USD, BUY, 660000.0 at 1.47987] closed in result of strategy request, amount 660000.0 at 1.46804</TD>
+</TR><TR>
+	<TD>2008-02-05 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [71.11]</TD>
+</TR><TR>
+	<TD>2008-02-06 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-07 04:31:11</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2638, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-07 04:31:11</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2638, EUR/USD, SELL, 20000.0 at 1.46144] filled</TD>
+</TR><TR>
+	<TD>2008-02-07 06:31:20</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2639, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-07 06:31:20</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2640, EUR/USD, SELL, 80000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-07 06:31:20</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2639, EUR/USD, SELL, 40000.0 at 1.46334] filled</TD>
+</TR><TR>
+	<TD>2008-02-07 06:31:20</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2640, EUR/USD, SELL, 80000.0 at 1.46334] filled</TD>
+</TR><TR>
+	<TD>2008-02-07 09:39:23</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2641, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-07 09:39:23</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2642, EUR/USD, SELL, 80000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-07 09:39:23</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2641, EUR/USD, SELL, 40000.0 at 1.46427] filled</TD>
+</TR><TR>
+	<TD>2008-02-07 09:39:23</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2642, EUR/USD, SELL, 80000.0 at 1.46427] filled</TD>
+</TR><TR>
+	<TD>2008-02-07 12:47:16</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2643, EUR/USD, SELL, 120000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-07 12:47:16</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2643, EUR/USD, SELL, 120000.0 at 1.45747] filled</TD>
+</TR><TR>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2638, EUR/USD, SELL, 20000.0 at 1.46144] closed in result of strategy request, amount 20000.0 at 1.45647</TD>
+</TR><TR>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2639, EUR/USD, SELL, 40000.0 at 1.46334] closed in result of strategy request, amount 40000.0 at 1.45647</TD>
+</TR><TR>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2640, EUR/USD, SELL, 80000.0 at 1.46334] closed in result of strategy request, amount 80000.0 at 1.45647</TD>
+</TR><TR>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2641, EUR/USD, SELL, 40000.0 at 1.46427] closed in result of strategy request, amount 40000.0 at 1.45647</TD>
+</TR><TR>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2642, EUR/USD, SELL, 80000.0 at 1.46427] closed in result of strategy request, amount 80000.0 at 1.45647</TD>
+</TR><TR>
+	<TD>2008-02-07 13:21:26</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2643, EUR/USD, SELL, 120000.0 at 1.45747] closed in result of strategy request, amount 120000.0 at 1.45647</TD>
+</TR><TR>
+	<TD>2008-02-07 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [27.72]</TD>
+</TR><TR>
+	<TD>2008-02-08 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2644, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-08 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2644, EUR/USD, SELL, 40000.0 at 1.44842] filled</TD>
+</TR><TR>
+	<TD>2008-02-08 06:59:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2645, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-08 06:59:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2646, EUR/USD, SELL, 80000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-08 06:59:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2645, EUR/USD, SELL, 40000.0 at 1.44951] filled</TD>
+</TR><TR>
+	<TD>2008-02-08 06:59:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2646, EUR/USD, SELL, 80000.0 at 1.44951] filled</TD>
+</TR><TR>
+	<TD>2008-02-08 15:55:27</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2647, EUR/USD, SELL, 120000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-08 15:55:27</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2647, EUR/USD, SELL, 120000.0 at 1.44913] filled</TD>
+</TR><TR>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2644, EUR/USD, SELL, 40000.0 at 1.44842] closed in result of strategy request, amount 40000.0 at 1.45064</TD>
+</TR><TR>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2645, EUR/USD, SELL, 40000.0 at 1.44951] closed in result of strategy request, amount 40000.0 at 1.45064</TD>
+</TR><TR>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2646, EUR/USD, SELL, 80000.0 at 1.44951] closed in result of strategy request, amount 80000.0 at 1.45064</TD>
+</TR><TR>
+	<TD>2008-02-08 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2647, EUR/USD, SELL, 120000.0 at 1.44913] closed in result of strategy request, amount 120000.0 at 1.45064</TD>
+</TR><TR>
+	<TD>2008-02-08 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [20.3]</TD>
+</TR><TR>
+	<TD>2008-02-11 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-12 04:31:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2648, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-12 04:31:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2648, EUR/USD, SELL, 10000.0 at 1.45135] filled</TD>
+</TR><TR>
+	<TD>2008-02-12 09:58:16</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2649, EUR/USD, SELL, 120000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-12 09:58:16</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2649, EUR/USD, SELL, 120000.0 at 1.45069] filled</TD>
+</TR><TR>
+	<TD>2008-02-12 15:36:34</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2649, EUR/USD, SELL, 120000.0 at 1.45069] closed in result of strategy request, amount 120000.0 at 1.45864</TD>
+</TR><TR>
+	<TD>2008-02-12 15:39:17</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2648, EUR/USD, SELL, 10000.0 at 1.45135] closed in result of strategy request, amount 10000.0 at 1.45873</TD>
+</TR><TR>
+	<TD>2008-02-12 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [9.46]</TD>
+</TR><TR>
+	<TD>2008-02-13 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2650, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-13 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2651, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-13 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2650, EUR/USD, BUY, 10000.0 at 1.458] filled</TD>
+</TR><TR>
+	<TD>2008-02-13 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2651, EUR/USD, BUY, 1000.0 at 1.458] filled</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2650, EUR/USD, BUY, 10000.0 at 1.458] closed in result of strategy request, amount 10000.0 at 1.45428</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2651, EUR/USD, BUY, 1000.0 at 1.458] closed in result of strategy request, amount 1000.0 at 1.45428</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2652, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2653, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2654, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2655, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2652, EUR/USD, BUY, 10000.0 at 1.45434] filled</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2653, EUR/USD, BUY, 1000.0 at 1.45434] filled</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2654, EUR/USD, BUY, 20000.0 at 1.45434] filled</TD>
+</TR><TR>
+	<TD>2008-02-13 07:48:59</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2655, EUR/USD, BUY, 1000.0 at 1.45434] filled</TD>
+</TR><TR>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2652, EUR/USD, BUY, 10000.0 at 1.45434] closed in result of strategy request, amount 10000.0 at 1.45685</TD>
+</TR><TR>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2653, EUR/USD, BUY, 1000.0 at 1.45434] closed in result of strategy request, amount 1000.0 at 1.45685</TD>
+</TR><TR>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2654, EUR/USD, BUY, 20000.0 at 1.45434] closed in result of strategy request, amount 20000.0 at 1.45685</TD>
+</TR><TR>
+	<TD>2008-02-13 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2655, EUR/USD, BUY, 1000.0 at 1.45434] closed in result of strategy request, amount 1000.0 at 1.45685</TD>
+</TR><TR>
+	<TD>2008-02-13 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [3.13]</TD>
+</TR><TR>
+	<TD>2008-02-14 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2656, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-14 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2656, EUR/USD, SELL, 40000.0 at 1.45633] filled</TD>
+</TR><TR>
+	<TD>2008-02-14 06:31:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2657, EUR/USD, SELL, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-14 06:31:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2658, EUR/USD, SELL, 80000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-14 06:31:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2657, EUR/USD, SELL, 40000.0 at 1.45741] filled</TD>
+</TR><TR>
+	<TD>2008-02-14 06:31:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2658, EUR/USD, SELL, 80000.0 at 1.45741] filled</TD>
+</TR><TR>
+	<TD>2008-02-14 08:31:12</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2659, EUR/USD, SELL, 160000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-14 08:31:12</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2660, EUR/USD, SELL, 320000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-14 08:31:12</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2659, EUR/USD, SELL, 160000.0 at 1.46167] filled</TD>
+</TR><TR>
+	<TD>2008-02-14 08:31:12</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2660, EUR/USD, SELL, 320000.0 at 1.46167] filled</TD>
+</TR><TR>
+	<TD>2008-02-14 10:57:09</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2656, EUR/USD, SELL, 40000.0 at 1.45633] closed in result of strategy request, amount 40000.0 at 1.46157</TD>
+</TR><TR>
+	<TD>2008-02-14 10:57:49</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2657, EUR/USD, SELL, 40000.0 at 1.45741] closed in result of strategy request, amount 40000.0 at 1.46159</TD>
+</TR><TR>
+	<TD>2008-02-14 10:57:49</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2658, EUR/USD, SELL, 80000.0 at 1.45741] closed in result of strategy request, amount 80000.0 at 1.46159</TD>
+</TR><TR>
+	<TD>2008-02-14 16:11:00</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2659, EUR/USD, SELL, 160000.0 at 1.46167] closed in result of strategy request, amount 160000.0 at 1.46342</TD>
+</TR><TR>
+	<TD>2008-02-14 16:11:00</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2660, EUR/USD, SELL, 320000.0 at 1.46167] closed in result of strategy request, amount 320000.0 at 1.46342</TD>
+</TR><TR>
+	<TD>2008-02-14 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [46.78]</TD>
+</TR><TR>
+	<TD>2008-02-15 04:31:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2661, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-15 04:31:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2661, EUR/USD, BUY, 10000.0 at 1.46325] filled</TD>
+</TR><TR>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2661, EUR/USD, BUY, 10000.0 at 1.46325] closed in result of strategy request, amount 10000.0 at 1.467</TD>
+</TR><TR>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2662, EUR/USD, SELL, 390000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2663, EUR/USD, SELL, 390000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2662, EUR/USD, SELL, 390000.0 at 1.467] filled</TD>
+</TR><TR>
+	<TD>2008-02-15 09:47:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2663, EUR/USD, SELL, 390000.0 at 1.467] filled</TD>
+</TR><TR>
+	<TD>2008-02-15 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2662, EUR/USD, SELL, 390000.0 at 1.467] closed in result of strategy request, amount 390000.0 at 1.46909</TD>
+</TR><TR>
+	<TD>2008-02-15 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2663, EUR/USD, SELL, 390000.0 at 1.467] closed in result of strategy request, amount 390000.0 at 1.46909</TD>
+</TR><TR>
+	<TD>2008-02-15 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [57.99]</TD>
+</TR><TR>
+	<TD>2008-02-18 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-19 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2664, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-19 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2664, EUR/USD, BUY, 10000.0 at 1.46625] filled</TD>
+</TR><TR>
+	<TD>2008-02-19 12:00:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2665, EUR/USD, BUY, 190000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-19 12:00:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2665, EUR/USD, BUY, 190000.0 at 1.47436] filled</TD>
+</TR><TR>
+	<TD>2008-02-19 16:11:10</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2664, EUR/USD, BUY, 10000.0 at 1.46625] closed in result of strategy request, amount 10000.0 at 1.474</TD>
+</TR><TR>
+	<TD>2008-02-19 16:11:10</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2665, EUR/USD, BUY, 190000.0 at 1.47436] closed in result of strategy request, amount 190000.0 at 1.474</TD>
+</TR><TR>
+	<TD>2008-02-19 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [14.74]</TD>
+</TR><TR>
+	<TD>2008-02-20 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-21 04:31:08</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2666, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-21 04:31:08</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2666, EUR/USD, BUY, 10000.0 at 1.47285] filled</TD>
+</TR><TR>
+	<TD>2008-02-21 12:00:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2667, EUR/USD, BUY, 190000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-21 12:00:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2667, EUR/USD, BUY, 190000.0 at 1.47079] filled</TD>
+</TR><TR>
+	<TD>2008-02-21 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2666, EUR/USD, BUY, 10000.0 at 1.47285] closed in result of strategy request, amount 10000.0 at 1.47887</TD>
+</TR><TR>
+	<TD>2008-02-21 16:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2667, EUR/USD, BUY, 190000.0 at 1.47079] closed in result of strategy request, amount 190000.0 at 1.47887</TD>
+</TR><TR>
+	<TD>2008-02-21 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [14.75]</TD>
+</TR><TR>
+	<TD>2008-02-22 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2668, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2669, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2668, EUR/USD, BUY, 20000.0 at 1.48042] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2669, EUR/USD, BUY, 1000.0 at 1.48042] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2670, EUR/USD, BUY, 140000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2671, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2672, EUR/USD, BUY, 280000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2673, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2670, EUR/USD, BUY, 140000.0 at 1.47943] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2671, EUR/USD, BUY, 1000.0 at 1.47943] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2672, EUR/USD, BUY, 280000.0 at 1.47943] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 08:08:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2673, EUR/USD, BUY, 1000.0 at 1.47943] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2668, EUR/USD, BUY, 20000.0 at 1.48042] closed in result of strategy request, amount 20000.0 at 1.48488</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2669, EUR/USD, BUY, 1000.0 at 1.48042] closed in result of strategy request, amount 1000.0 at 1.48488</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2670, EUR/USD, BUY, 140000.0 at 1.47943] closed in result of strategy request, amount 140000.0 at 1.48488</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2671, EUR/USD, BUY, 1000.0 at 1.47943] closed in result of strategy request, amount 1000.0 at 1.48488</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2672, EUR/USD, BUY, 280000.0 at 1.47943] closed in result of strategy request, amount 280000.0 at 1.48488</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2673, EUR/USD, BUY, 1000.0 at 1.47943] closed in result of strategy request, amount 1000.0 at 1.48488</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2674, EUR/USD, SELL, 210000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2675, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2676, EUR/USD, SELL, 210000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2677, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2674, EUR/USD, SELL, 210000.0 at 1.48488] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2675, EUR/USD, SELL, 1000.0 at 1.48488] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2676, EUR/USD, SELL, 210000.0 at 1.48488] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2677, EUR/USD, SELL, 1000.0 at 1.48488] filled</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2674, EUR/USD, SELL, 210000.0 at 1.48488] closed in result of strategy request, amount 210000.0 at 1.48536</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2675, EUR/USD, SELL, 1000.0 at 1.48488] closed in result of strategy request, amount 1000.0 at 1.48536</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2676, EUR/USD, SELL, 210000.0 at 1.48488] closed in result of strategy request, amount 210000.0 at 1.48536</TD>
+</TR><TR>
+	<TD>2008-02-22 13:11:14</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2677, EUR/USD, SELL, 1000.0 at 1.48488] closed in result of strategy request, amount 1000.0 at 1.48536</TD>
+</TR><TR>
+	<TD>2008-02-22 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [64.17]</TD>
+</TR><TR>
+	<TD>2008-02-25 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-26 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2678, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2678, EUR/USD, BUY, 10000.0 at 1.48274] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 06:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2679, EUR/USD, BUY, 140000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 06:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2680, EUR/USD, BUY, 280000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 06:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2679, EUR/USD, BUY, 140000.0 at 1.48155] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 06:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2680, EUR/USD, BUY, 280000.0 at 1.48155] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 08:31:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2681, EUR/USD, BUY, 550000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 08:31:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2682, EUR/USD, BUY, 1100000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 08:31:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2681, EUR/USD, BUY, 550000.0 at 1.4787] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 08:31:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2682, EUR/USD, BUY, 1100000.0 at 1.4787] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 10:52:34</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2683, EUR/USD, BUY, 80000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 10:52:34</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2683, EUR/USD, BUY, 80000.0 at 1.48655] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 10:56:49</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2684, EUR/USD, BUY, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 10:56:49</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2685, EUR/USD, BUY, 80000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 10:56:49</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2684, EUR/USD, BUY, 40000.0 at 1.48612] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 10:56:49</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2685, EUR/USD, BUY, 80000.0 at 1.48612] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2678, EUR/USD, BUY, 10000.0 at 1.48274] closed in result of strategy request, amount 10000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2679, EUR/USD, BUY, 140000.0 at 1.48155] closed in result of strategy request, amount 140000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2680, EUR/USD, BUY, 280000.0 at 1.48155] closed in result of strategy request, amount 280000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2681, EUR/USD, BUY, 550000.0 at 1.4787] closed in result of strategy request, amount 550000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2682, EUR/USD, BUY, 1100000.0 at 1.4787] closed in result of strategy request, amount 1100000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2683, EUR/USD, BUY, 80000.0 at 1.48655] closed in result of strategy request, amount 80000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2684, EUR/USD, BUY, 40000.0 at 1.48612] closed in result of strategy request, amount 40000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2685, EUR/USD, BUY, 80000.0 at 1.48612] closed in result of strategy request, amount 80000.0 at 1.48748</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2686, EUR/USD, SELL, 290000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2687, EUR/USD, SELL, 290000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2686, EUR/USD, SELL, 290000.0 at 1.48748] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2687, EUR/USD, SELL, 290000.0 at 1.48748] filled</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2686, EUR/USD, SELL, 290000.0 at 1.48748] closed in result of strategy request, amount 290000.0 at 1.48745</TD>
+</TR><TR>
+	<TD>2008-02-26 13:11:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2687, EUR/USD, SELL, 290000.0 at 1.48748] closed in result of strategy request, amount 290000.0 at 1.48745</TD>
+</TR><TR>
+	<TD>2008-02-26 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [212.28]</TD>
+</TR><TR>
+	<TD>2008-02-27 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-02-28 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2688, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 04:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2689, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2688, EUR/USD, BUY, 20000.0 at 1.51088] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 04:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2689, EUR/USD, BUY, 1000.0 at 1.51088] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2690, EUR/USD, BUY, 100000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2691, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2692, EUR/USD, BUY, 200000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2693, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2690, EUR/USD, BUY, 100000.0 at 1.51001] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2691, EUR/USD, BUY, 1000.0 at 1.51001] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2692, EUR/USD, BUY, 200000.0 at 1.51001] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 06:33:14</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2693, EUR/USD, BUY, 1000.0 at 1.51001] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2694, EUR/USD, BUY, 800000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2695, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2696, EUR/USD, BUY, 1600000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2697, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2694, EUR/USD, BUY, 800000.0 at 1.50891] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2695, EUR/USD, BUY, 1000.0 at 1.50891] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2696, EUR/USD, BUY, 1600000.0 at 1.50891] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 08:33:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2697, EUR/USD, BUY, 1000.0 at 1.50891] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2688, EUR/USD, BUY, 20000.0 at 1.51088] closed in result of strategy request, amount 20000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2689, EUR/USD, BUY, 1000.0 at 1.51088] closed in result of strategy request, amount 1000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2690, EUR/USD, BUY, 100000.0 at 1.51001] closed in result of strategy request, amount 100000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2691, EUR/USD, BUY, 1000.0 at 1.51001] closed in result of strategy request, amount 1000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2692, EUR/USD, BUY, 200000.0 at 1.51001] closed in result of strategy request, amount 200000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2693, EUR/USD, BUY, 1000.0 at 1.51001] closed in result of strategy request, amount 1000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2694, EUR/USD, BUY, 800000.0 at 1.50891] closed in result of strategy request, amount 800000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2695, EUR/USD, BUY, 1000.0 at 1.50891] closed in result of strategy request, amount 1000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2696, EUR/USD, BUY, 1600000.0 at 1.50891] closed in result of strategy request, amount 1600000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2697, EUR/USD, BUY, 1000.0 at 1.50891] closed in result of strategy request, amount 1000.0 at 1.51148</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2698, EUR/USD, SELL, 320000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2699, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2700, EUR/USD, SELL, 320000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2701, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2698, EUR/USD, SELL, 320000.0 at 1.51148] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2699, EUR/USD, SELL, 1000.0 at 1.51148] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2700, EUR/USD, SELL, 320000.0 at 1.51148] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 13:11:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2701, EUR/USD, SELL, 1000.0 at 1.51148] filled</TD>
+</TR><TR>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2698, EUR/USD, SELL, 320000.0 at 1.51148] closed in result of strategy request, amount 320000.0 at 1.51849</TD>
+</TR><TR>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2699, EUR/USD, SELL, 1000.0 at 1.51148] closed in result of strategy request, amount 1000.0 at 1.51849</TD>
+</TR><TR>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2700, EUR/USD, SELL, 320000.0 at 1.51148] closed in result of strategy request, amount 320000.0 at 1.51849</TD>
+</TR><TR>
+	<TD>2008-02-28 16:11:05</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2701, EUR/USD, SELL, 1000.0 at 1.51148] closed in result of strategy request, amount 1000.0 at 1.51849</TD>
+</TR><TR>
+	<TD>2008-02-28 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [183.17]</TD>
+</TR><TR>
+	<TD>2008-02-29 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2702, EUR/USD, BUY, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-29 04:31:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2703, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-29 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2702, EUR/USD, BUY, 10000.0 at 1.51813] filled</TD>
+</TR><TR>
+	<TD>2008-02-29 04:31:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2703, EUR/USD, BUY, 1000.0 at 1.51813] filled</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2704, EUR/USD, BUY, 210000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2705, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2706, EUR/USD, BUY, 420000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2707, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2704, EUR/USD, BUY, 210000.0 at 1.51713] filled</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2705, EUR/USD, BUY, 1000.0 at 1.51713] filled</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2706, EUR/USD, BUY, 420000.0 at 1.51713] filled</TD>
+</TR><TR>
+	<TD>2008-02-29 11:13:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2707, EUR/USD, BUY, 1000.0 at 1.51713] filled</TD>
+</TR><TR>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2702, EUR/USD, BUY, 10000.0 at 1.51813] closed in result of strategy request, amount 10000.0 at 1.51854</TD>
+</TR><TR>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2703, EUR/USD, BUY, 1000.0 at 1.51813] closed in result of strategy request, amount 1000.0 at 1.51854</TD>
+</TR><TR>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2704, EUR/USD, BUY, 210000.0 at 1.51713] closed in result of strategy request, amount 210000.0 at 1.51854</TD>
+</TR><TR>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2705, EUR/USD, BUY, 1000.0 at 1.51713] closed in result of strategy request, amount 1000.0 at 1.51854</TD>
+</TR><TR>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2706, EUR/USD, BUY, 420000.0 at 1.51713] closed in result of strategy request, amount 420000.0 at 1.51854</TD>
+</TR><TR>
+	<TD>2008-02-29 16:11:07</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2707, EUR/USD, BUY, 1000.0 at 1.51713] closed in result of strategy request, amount 1000.0 at 1.51854</TD>
+</TR><TR>
+	<TD>2008-02-29 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [35.14]</TD>
+</TR><TR>
+	<TD>2008-03-03 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-04 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2708, EUR/USD, BUY, 40000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2709, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2708, EUR/USD, BUY, 40000.0 at 1.51912] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2709, EUR/USD, BUY, 1000.0 at 1.51912] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2710, EUR/USD, SELL, 120000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2711, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2712, EUR/USD, SELL, 240000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2713, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2710, EUR/USD, SELL, 120000.0 at 1.5181] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2711, EUR/USD, SELL, 1000.0 at 1.5181] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2712, EUR/USD, SELL, 240000.0 at 1.5181] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 06:47:15</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2713, EUR/USD, SELL, 1000.0 at 1.5181] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2714, EUR/USD, BUY, 480000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2715, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2716, EUR/USD, BUY, 960000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2717, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2714, EUR/USD, BUY, 480000.0 at 1.51922] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2715, EUR/USD, BUY, 1000.0 at 1.51922] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2716, EUR/USD, BUY, 960000.0 at 1.51922] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 08:47:24</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2717, EUR/USD, BUY, 1000.0 at 1.51922] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2718, EUR/USD, BUY, 180000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2719, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2720, EUR/USD, BUY, 180000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2721, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2718, EUR/USD, BUY, 180000.0 at 1.52057] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2719, EUR/USD, BUY, 1000.0 at 1.52057] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2720, EUR/USD, BUY, 180000.0 at 1.52057] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 13:58:41</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2721, EUR/USD, BUY, 1000.0 at 1.52057] filled</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2708, EUR/USD, BUY, 40000.0 at 1.51912] closed in result of strategy request, amount 40000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2709, EUR/USD, BUY, 1000.0 at 1.51912] closed in result of strategy request, amount 1000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2710, EUR/USD, SELL, 120000.0 at 1.5181] closed in result of strategy request, amount 120000.0 at 1.52198</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2711, EUR/USD, SELL, 1000.0 at 1.5181] closed in result of strategy request, amount 1000.0 at 1.52198</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2712, EUR/USD, SELL, 240000.0 at 1.5181] closed in result of strategy request, amount 240000.0 at 1.52198</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2713, EUR/USD, SELL, 1000.0 at 1.5181] closed in result of strategy request, amount 1000.0 at 1.52198</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2714, EUR/USD, BUY, 480000.0 at 1.51922] closed in result of strategy request, amount 480000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2715, EUR/USD, BUY, 1000.0 at 1.51922] closed in result of strategy request, amount 1000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2716, EUR/USD, BUY, 960000.0 at 1.51922] closed in result of strategy request, amount 960000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2717, EUR/USD, BUY, 1000.0 at 1.51922] closed in result of strategy request, amount 1000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2718, EUR/USD, BUY, 180000.0 at 1.52057] closed in result of strategy request, amount 180000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2719, EUR/USD, BUY, 1000.0 at 1.52057] closed in result of strategy request, amount 1000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2720, EUR/USD, BUY, 180000.0 at 1.52057] closed in result of strategy request, amount 180000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 16:11:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2721, EUR/USD, BUY, 1000.0 at 1.52057] closed in result of strategy request, amount 1000.0 at 1.52183</TD>
+</TR><TR>
+	<TD>2008-03-04 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [120.81]</TD>
+</TR><TR>
+	<TD>2008-03-05 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-06 04:31:02</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2722, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-06 04:31:02</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2722, EUR/USD, SELL, 10000.0 at 1.52755] filled</TD>
+</TR><TR>
+	<TD>2008-03-06 11:07:12</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2722, EUR/USD, SELL, 10000.0 at 1.52755] closed in result of strategy request, amount 10000.0 at 1.53215</TD>
+</TR><TR>
+	<TD>2008-03-06 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.55]</TD>
+</TR><TR>
+	<TD>2008-03-07 04:31:03</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2723, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-07 04:31:03</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2723, EUR/USD, SELL, 10000.0 at 1.53805] filled</TD>
+</TR><TR>
+	<TD>2008-03-07 09:52:34</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2724, EUR/USD, BUY, 90000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-07 09:52:34</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2724, EUR/USD, BUY, 90000.0 at 1.53959] filled</TD>
+</TR><TR>
+	<TD>2008-03-07 13:52:35</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2723, EUR/USD, SELL, 10000.0 at 1.53805] closed in result of strategy request, amount 10000.0 at 1.5417</TD>
+</TR><TR>
+	<TD>2008-03-07 16:11:08</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2724, EUR/USD, BUY, 90000.0 at 1.53959] closed in result of strategy request, amount 90000.0 at 1.53558</TD>
+</TR><TR>
+	<TD>2008-03-07 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [5.54]</TD>
+</TR><TR>
+	<TD>2008-03-10 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-11 03:31:08</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2725, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-11 03:31:08</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2725, EUR/USD, SELL, 20000.0 at 1.5357] filled</TD>
+</TR><TR>
+	<TD>2008-03-11 05:47:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2726, EUR/USD, BUY, 65000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-11 05:47:45</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2727, EUR/USD, BUY, 130000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-11 05:47:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2726, EUR/USD, BUY, 65000.0 at 1.53666] filled</TD>
+</TR><TR>
+	<TD>2008-03-11 05:47:45</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2727, EUR/USD, BUY, 130000.0 at 1.53666] filled</TD>
+</TR><TR>
+	<TD>2008-03-11 07:49:43</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2728, EUR/USD, SELL, 250000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-11 07:49:43</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2729, EUR/USD, SELL, 500000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-11 07:49:43</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2728, EUR/USD, SELL, 250000.0 at 1.53559] filled</TD>
+</TR><TR>
+	<TD>2008-03-11 07:49:43</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2729, EUR/USD, SELL, 500000.0 at 1.53559] filled</TD>
+</TR><TR>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2725, EUR/USD, SELL, 20000.0 at 1.5357] closed in result of strategy request, amount 20000.0 at 1.53975</TD>
+</TR><TR>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2726, EUR/USD, BUY, 65000.0 at 1.53666] closed in result of strategy request, amount 65000.0 at 1.53959</TD>
+</TR><TR>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2727, EUR/USD, BUY, 130000.0 at 1.53666] closed in result of strategy request, amount 130000.0 at 1.53959</TD>
+</TR><TR>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2728, EUR/USD, SELL, 250000.0 at 1.53559] closed in result of strategy request, amount 250000.0 at 1.53975</TD>
+</TR><TR>
+	<TD>2008-03-11 10:00:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2729, EUR/USD, SELL, 500000.0 at 1.53559] closed in result of strategy request, amount 500000.0 at 1.53975</TD>
+</TR><TR>
+	<TD>2008-03-11 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [53.42]</TD>
+</TR><TR>
+	<TD>2008-03-12 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-13 03:31:08</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2730, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-13 03:31:08</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2730, EUR/USD, SELL, 10000.0 at 1.5582] filled</TD>
+</TR><TR>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2730, EUR/USD, SELL, 10000.0 at 1.5582] closed in result of strategy request, amount 10000.0 at 1.55435</TD>
+</TR><TR>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2731, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2732, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2731, EUR/USD, SELL, 20000.0 at 1.55429] filled</TD>
+</TR><TR>
+	<TD>2008-03-13 06:59:10</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2732, EUR/USD, SELL, 20000.0 at 1.55429] filled</TD>
+</TR><TR>
+	<TD>2008-03-13 10:39:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2731, EUR/USD, SELL, 20000.0 at 1.55429] closed in result of strategy request, amount 20000.0 at 1.55925</TD>
+</TR><TR>
+	<TD>2008-03-13 10:39:13</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2732, EUR/USD, SELL, 20000.0 at 1.55429] closed in result of strategy request, amount 20000.0 at 1.55925</TD>
+</TR><TR>
+	<TD>2008-03-13 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [2.8]</TD>
+</TR><TR>
+	<TD>2008-03-14 03:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2733, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-14 03:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2733, EUR/USD, SELL, 10000.0 at 1.56026] filled</TD>
+</TR><TR>
+	<TD>2008-03-14 07:58:07</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2734, EUR/USD, BUY, 160000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-14 07:58:07</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2734, EUR/USD, BUY, 160000.0 at 1.56022] filled</TD>
+</TR><TR>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2733, EUR/USD, SELL, 10000.0 at 1.56026] closed in result of strategy request, amount 10000.0 at 1.55654</TD>
+</TR><TR>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2734, EUR/USD, BUY, 160000.0 at 1.56022] closed in result of strategy request, amount 160000.0 at 1.55644</TD>
+</TR><TR>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2735, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2736, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2735, EUR/USD, SELL, 10000.0 at 1.55644] filled</TD>
+</TR><TR>
+	<TD>2008-03-14 10:10:36</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2736, EUR/USD, SELL, 20000.0 at 1.55644] filled</TD>
+</TR><TR>
+	<TD>2008-03-14 15:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2735, EUR/USD, SELL, 10000.0 at 1.55644] closed in result of strategy request, amount 10000.0 at 1.5619</TD>
+</TR><TR>
+	<TD>2008-03-14 15:11:06</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2736, EUR/USD, SELL, 20000.0 at 1.55644] closed in result of strategy request, amount 20000.0 at 1.5619</TD>
+</TR><TR>
+	<TD>2008-03-14 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [11.22]</TD>
+</TR><TR>
+	<TD>2008-03-17 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-18 03:31:08</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2737, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-18 03:31:08</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2737, EUR/USD, SELL, 10000.0 at 1.57748] filled</TD>
+</TR><TR>
+	<TD>2008-03-18 06:20:00</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2738, EUR/USD, BUY, 105000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-18 06:20:00</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2739, EUR/USD, BUY, 210000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-18 06:20:00</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2738, EUR/USD, BUY, 105000.0 at 1.57839] filled</TD>
+</TR><TR>
+	<TD>2008-03-18 06:20:00</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2739, EUR/USD, BUY, 210000.0 at 1.57839] filled</TD>
+</TR><TR>
+	<TD>2008-03-18 08:20:05</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2740, EUR/USD, SELL, 200000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-18 08:20:05</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2741, EUR/USD, SELL, 400000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-18 08:20:05</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2740, EUR/USD, SELL, 200000.0 at 1.57556] filled</TD>
+</TR><TR>
+	<TD>2008-03-18 08:20:05</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2741, EUR/USD, SELL, 400000.0 at 1.57556] filled</TD>
+</TR><TR>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2737, EUR/USD, SELL, 10000.0 at 1.57748] closed in result of strategy request, amount 10000.0 at 1.58085</TD>
+</TR><TR>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2738, EUR/USD, BUY, 105000.0 at 1.57839] closed in result of strategy request, amount 105000.0 at 1.5808</TD>
+</TR><TR>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2739, EUR/USD, BUY, 210000.0 at 1.57839] closed in result of strategy request, amount 210000.0 at 1.5808</TD>
+</TR><TR>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2740, EUR/USD, SELL, 200000.0 at 1.57556] closed in result of strategy request, amount 200000.0 at 1.58085</TD>
+</TR><TR>
+	<TD>2008-03-18 10:15:45</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2741, EUR/USD, SELL, 400000.0 at 1.57556] closed in result of strategy request, amount 400000.0 at 1.58085</TD>
+</TR><TR>
+	<TD>2008-03-18 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [52.57]</TD>
+</TR><TR>
+	<TD>2008-03-19 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-20 03:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2742, EUR/USD, BUY, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-20 03:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2742, EUR/USD, BUY, 20000.0 at 1.55822] filled</TD>
+</TR><TR>
+	<TD>2008-03-20 07:20:47</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2743, EUR/USD, SELL, 800000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-20 07:20:47</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2744, EUR/USD, SELL, 1600000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-20 07:20:47</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2743, EUR/USD, SELL, 800000.0 at 1.55689] filled</TD>
+</TR><TR>
+	<TD>2008-03-20 07:20:47</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2744, EUR/USD, SELL, 1600000.0 at 1.55689] filled</TD>
+</TR><TR>
+	<TD>2008-03-20 09:52:35</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2744, EUR/USD, SELL, 1600000.0 at 1.55689] closed by take profit event, amount 1600000.0 at 1.54636</TD>
+</TR><TR>
+	<TD>2008-03-20 11:08:37</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2742, EUR/USD, BUY, 20000.0 at 1.55822] closed in result of strategy request, amount 20000.0 at 1.54539</TD>
+</TR><TR>
+	<TD>2008-03-20 11:08:47</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2745, EUR/USD, BUY, 820000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-20 11:08:47</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2745, EUR/USD, BUY, 820000.0 at 1.54603] filled</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2743, EUR/USD, SELL, 800000.0 at 1.55689] closed in result of strategy request, amount 800000.0 at 1.54513</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2745, EUR/USD, BUY, 820000.0 at 1.54603] closed in result of strategy request, amount 820000.0 at 1.54503</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2746, EUR/USD, BUY, 410000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2747, EUR/USD, BUY, 820000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2746, EUR/USD, BUY, 410000.0 at 1.54513] filled</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:01</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2747, EUR/USD, BUY, 820000.0 at 1.54513] filled</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:15</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2746, EUR/USD, BUY, 410000.0 at 1.54513] closed in result of strategy request, amount 410000.0 at 1.54446</TD>
+</TR><TR>
+	<TD>2008-03-20 12:11:15</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2747, EUR/USD, BUY, 820000.0 at 1.54513] closed in result of strategy request, amount 820000.0 at 1.54446</TD>
+</TR><TR>
+	<TD>2008-03-20 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [249.19]</TD>
+</TR><TR>
+	<TD>2008-03-21 03:31:09</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2748, EUR/USD, BUY, 30000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-21 03:31:09</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2748, EUR/USD, BUY, 30000.0 at 1.54261] filled</TD>
+</TR><TR>
+	<TD>2008-03-21 11:00:00</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2749, EUR/USD, SELL, 820000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-21 11:00:00</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2749, EUR/USD, SELL, 820000.0 at 1.54263] filled</TD>
+</TR><TR>
+	<TD>2008-03-21 15:11:04</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2748, EUR/USD, BUY, 30000.0 at 1.54261] closed in result of strategy request, amount 30000.0 at 1.54429</TD>
+</TR><TR>
+	<TD>2008-03-21 15:11:04</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2749, EUR/USD, SELL, 820000.0 at 1.54263] closed in result of strategy request, amount 820000.0 at 1.54439</TD>
+</TR><TR>
+	<TD>2008-03-21 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [47.23]</TD>
+</TR><TR>
+	<TD>2008-03-24 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-25 03:31:35</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2750, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-25 03:31:35</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2751, EUR/USD, SELL, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-25 03:31:35</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2750, EUR/USD, SELL, 10000.0 at 1.55374] filled</TD>
+</TR><TR>
+	<TD>2008-03-25 03:31:35</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2751, EUR/USD, SELL, 1000.0 at 1.55374] filled</TD>
+</TR><TR>
+	<TD>2008-03-25 07:17:25</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2752, EUR/USD, BUY, 110000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-25 07:17:25</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_BUY_2753, EUR/USD, BUY, 1000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-25 07:17:25</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2752, EUR/USD, BUY, 110000.0 at 1.55446] filled</TD>
+</TR><TR>
+	<TD>2008-03-25 07:17:25</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_BUY_2753, EUR/USD, BUY, 1000.0 at 1.55446] filled</TD>
+</TR><TR>
+	<TD>2008-03-25 13:49:22</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2750, EUR/USD, SELL, 10000.0 at 1.55374] closed in result of strategy request, amount 10000.0 at 1.55754</TD>
+</TR><TR>
+	<TD>2008-03-25 15:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2751, EUR/USD, SELL, 1000.0 at 1.55374] closed in result of strategy request, amount 1000.0 at 1.55842</TD>
+</TR><TR>
+	<TD>2008-03-25 15:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2752, EUR/USD, BUY, 110000.0 at 1.55446] closed in result of strategy request, amount 110000.0 at 1.55837</TD>
+</TR><TR>
+	<TD>2008-03-25 15:11:03</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_BUY_2753, EUR/USD, BUY, 1000.0 at 1.55446] closed in result of strategy request, amount 1000.0 at 1.55837</TD>
+</TR><TR>
+	<TD>2008-03-25 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [6.84]</TD>
+</TR><TR>
+	<TD>2008-03-26 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-03-27 03:31:35</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2754, EUR/USD, SELL, 20000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-27 03:31:35</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2754, EUR/USD, SELL, 20000.0 at 1.58072] filled</TD>
+</TR><TR>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2754, EUR/USD, SELL, 20000.0 at 1.58072] closed in result of strategy request, amount 20000.0 at 1.57879</TD>
+</TR><TR>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2755, EUR/USD, SELL, 1680000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2756, EUR/USD, SELL, 1680000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2755, EUR/USD, SELL, 1680000.0 at 1.57863] filled</TD>
+</TR><TR>
+	<TD>2008-03-27 06:12:39</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2756, EUR/USD, SELL, 1680000.0 at 1.57863] filled</TD>
+</TR><TR>
+	<TD>2008-03-27 10:09:46</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2755, EUR/USD, SELL, 1680000.0 at 1.57863] closed in result of strategy request, amount 1680000.0 at 1.57936</TD>
+</TR><TR>
+	<TD>2008-03-27 10:09:46</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2756, EUR/USD, SELL, 1680000.0 at 1.57863] closed in result of strategy request, amount 1680000.0 at 1.57936</TD>
+</TR><TR>
+	<TD>2008-03-27 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [192.13]</TD>
+</TR><TR>
+	<TD>2008-03-28 03:31:36</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2757, EUR/USD, SELL, 10000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-28 03:31:36</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2757, EUR/USD, SELL, 10000.0 at 1.57885] filled</TD>
+</TR><TR>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2757, EUR/USD, SELL, 10000.0 at 1.57885] closed in result of strategy request, amount 10000.0 at 1.57717</TD>
+</TR><TR>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2758, EUR/USD, SELL, 1620000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>Order submitted</TD>
+	<TD>Order [nextDay_SELL_2759, EUR/USD, SELL, 1620000.0 at 0.0] submitted by the strategy</TD>
+</TR><TR>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2758, EUR/USD, SELL, 1620000.0 at 1.57697] filled</TD>
+</TR><TR>
+	<TD>2008-03-28 06:55:11</TD>
+	<TD>Order filled</TD>
+	<TD>Order [nextDay_SELL_2759, EUR/USD, SELL, 1620000.0 at 1.57697] filled</TD>
+</TR><TR>
+	<TD>2008-03-28 10:00:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2758, EUR/USD, SELL, 1620000.0 at 1.57697] closed in result of strategy request, amount 1620000.0 at 1.57912</TD>
+</TR><TR>
+	<TD>2008-03-28 10:00:02</TD>
+	<TD>Order closed</TD>
+	<TD>Order [nextDay_SELL_2759, EUR/USD, SELL, 1620000.0 at 1.57697] closed in result of strategy request, amount 1620000.0 at 1.57912</TD>
+</TR><TR>
+	<TD>2008-03-28 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [184.63]</TD>
+</TR><TR>
+	<TD>2008-03-31 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR><TR>
+	<TD>2008-04-01 21:00:00</TD>
+	<TD>Commissions</TD>
+	<TD>Commissions [0.0]</TD>
+</TR>
+</TABLE>
+<br><br><br><br><br><br><br><br></BODY>
+</HTML>
