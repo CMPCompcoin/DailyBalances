@@ -36,7 +36,7 @@ It would be beneficial to use the standard, they development uses of 'data_set_N
 
 just the next iteration of the file that is added.
 
-###Running the script
+##Running the script
 In a terminal type in
 ```terminal
 python ./daily_ending_balances.py YOUR_DATA_SET_NAME.json
