@@ -25,6 +25,7 @@ def main():
  Dynamic means you have it on the internet. Where you access via URL'''
     choose = input('Static [1] or Dynamic [2]: ')
     if choose == 1:
+        # determine_buy_or_sell()
         determine_buy_or_sell()
 
 
@@ -57,12 +58,8 @@ def determine_buy_or_sell():
     data_keys = data.keys()
 
     # TODO make sure these are not global variables.
-
-    global next_day_sell
     next_day_sell = []
-    global next_day_buy
     next_day_buy = []
-    global last_four_numbers
     last_four_numbers = []
 
     labels = {'nextDayBUY': 'BUY', 'nextDaySELL': 'SELL'}
@@ -94,16 +91,16 @@ def determine_buy_or_sell():
     pprint(next_day_sell)
     pprint(next_day_buy)
 
-
+    standard_amount = 50000
+    first_eb = standard_amount+()
     # pprint(data[next_day_sell[0]])
-
+    return next_day_sell, next_day_buy
 def ending_balance():
     pass
 
 
 def inital_ending_balance():
     standard = 50000
-    next_day_buy
 
 
 if __name__ == '__main__':
