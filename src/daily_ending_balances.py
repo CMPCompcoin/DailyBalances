@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from __future__ import print_function
+from __future__ import print_function
 from __future__ import with_statement
 import sys
 import json
@@ -19,16 +21,15 @@ with open(complete) as data_file:
 
 
 def main():
-    print 'MAKE SURE YOU READ THE README.MD'
-    print 'Please be sure you are running the .py file from the same directory where you are working.'
-    print '*************************************'
-    print '''This will convert your HTML table to CSV.
+    print('MAKE SURE YOU READ THE README.MD')
+    print('Please be sure you are running the .py file from the same directory where you are working.')
+    print('*************************************')
+    print('''This will convert your HTML table to CSV.
  Static means you have the file saved to the computer.
- Dynamic means you have it on the Internet. Where you access via URL'''
+ Dynamic means you have it on the Internet. Where you access via URL''')
     choose = input('Static [1] or Dynamic [2]: ')
     if choose == 1:
        ending_balances()
-        # play()
 
 
 def set_up():
@@ -135,7 +136,8 @@ def play():
 def initial_ending_balance():
     daily_ending_balances = {
         'initial': [],
-        'others': []
+        'price_loss': [],
+        'final_daily_balances': []
     }
     daily_data = get_num_id()
     initial_amount = 50000
@@ -148,6 +150,28 @@ def initial_ending_balance():
 
 def ending_balances():
     daily_ending_balances = initial_ending_balance()
+    daily_data = get_num_id()
+    num_elements = len(daily_data['keys'])
+    range_elements = range(1, num_elements)
+
+    for index in range_elements:
+        first_key = [(daily_data['keys'][index])]
+        for i in first_key:
+            # f_attribute = (daily_data['data'][i]['Profit/Loss'])
+            daily_ending_balances['price_loss'].append((daily_data['data'][i]['Profit/Loss']))
+
+    daily_ending_balances['final_daily_balances'].append(daily_ending_balances['price_loss'][0] + daily_ending_balances['initial'][0])
+    range_elements_new = (1, len(daily_ending_balances['price_loss']))
+    for i in daily_ending_balances['price_loss'][1:]:
+        for c in daily_ending_balances['final_daily_balances']:
+            print(i + c)
+    # for i in range_elements_new:
+    #     print range_elements_new
+
+
+
+
+
 
 
 if __name__ == '__main__':
