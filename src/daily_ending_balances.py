@@ -157,21 +157,14 @@ def ending_balances():
     for index in range_elements:
         first_key = [(daily_data['keys'][index])]
         for i in first_key:
-            # f_attribute = (daily_data['data'][i]['Profit/Loss'])
             daily_ending_balances['price_loss'].append((daily_data['data'][i]['Profit/Loss']))
 
     daily_ending_balances['final_daily_balances'].append(daily_ending_balances['price_loss'][0] + daily_ending_balances['initial'][0])
     range_elements_new = (1, len(daily_ending_balances['price_loss']))
     for i in daily_ending_balances['price_loss'][1:]:
         for c in daily_ending_balances['final_daily_balances']:
-            print(i + c)
-    # for i in range_elements_new:
-    #     print range_elements_new
-
-
-
-
-
+            prices = [i + c]
+            pprint(prices)
 
 
 if __name__ == '__main__':
