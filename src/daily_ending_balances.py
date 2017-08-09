@@ -27,9 +27,8 @@ def main():
  Dynamic means you have it on the Internet. Where you access via URL'''
     choose = input('Static [1] or Dynamic [2]: ')
     if choose == 1:
-        pass
-        # buy_or_sell()
-        inital_ending_balance()
+       ending_balances()
+        # play()
 
 
 def set_up():
@@ -42,6 +41,7 @@ def set_up():
         'data': [],
         'keys': []
     }
+
     return daily_data
 
 
@@ -115,6 +115,7 @@ def get_num_id():
 
     daily_data['num_id_buy'] = sorted(daily_data['num_id_buy'])
     daily_data['num_id_sell'] = sorted(daily_data['num_id_sell'])
+    daily_data['keys'] = sorted(daily_data['keys'])
     return daily_data
 
 
@@ -124,28 +125,29 @@ def ending_balance():
 
 def play():
     daily_data = get_num_id()
-
-    # pprint(len(daily_data['data']))
-
     something = daily_data['keys'][0]
-    # pprint(something)
-    # pprint(daily_data['data'][something])
-    print daily_data['num_id_buy']
+    bryan = (daily_data['data'][something])
+    pprint(something)
+    pprint(bryan)
+    pprint(bryan['Profit/Loss'])
 
 
-def inital_ending_balance():
+def initial_ending_balance():
+    daily_ending_balances = {
+        'initial': [],
+        'others': []
+    }
     daily_data = get_num_id()
-    inital_amount = 50000
-    a = daily_data['num_id_buy']
-    j = daily_data['keys'][a]
-    profit_loss = daily_data['data'][j]['Profit/Loss']
-    f_eb = inital_amount + profit_loss
-    print j
-    print profit_loss
-    print f_eb
+    initial_amount = 50000
+    first_key = daily_data['keys'][0]
+    f_attributes = (daily_data['data'][first_key])
+    p_l = f_attributes['Profit/Loss']
+    daily_ending_balances['initial'].append(initial_amount + p_l)
+    return daily_ending_balances
 
 
-    return daily_data
+def ending_balances():
+    daily_ending_balances = initial_ending_balance()
 
 
 if __name__ == '__main__':
